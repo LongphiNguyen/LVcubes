@@ -1,0 +1,169 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="afc73490-8b4a-44ec-851b-4ab934376400" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Covenant Cube</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Covenant Custom</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="8491c795-08cf-4d60-861f-0ac2d1ab4927">
+          <ID>Covenant Custom</ID>
+          <Name>Covenant Custom</Name>
+          <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="8246ef5d-e2d2-459b-b0ab-a998c25cf504">
+            <DataSourceViewID>Loan Vantage IBS 2921</DataSourceViewID>
+            <TableID>CovenantCustom</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <EstimatedRows>20157</EstimatedRows>
+          <AggregationDesignID>AggregationDesign</AggregationDesignID>
+        </Partition>
+      </Partitions>
+      <AggregationDesigns>
+        <AggregationDesign>
+          <ID>AggregationDesign</ID>
+          <Name>AggregationDesign</Name>
+          <CreatedTimestamp>2016-06-28T22:48:43.1Z</CreatedTimestamp>
+          <LastSchemaUpdate>2016-06-28T22:48:43.1Z</LastSchemaUpdate>
+          <EstimatedRows>20157</EstimatedRows>
+          <Dimensions>
+            <Dimension>
+              <CubeDimensionID>Covenant_CovenantCube</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Covenant Track</AttributeID>
+                  <EstimatedCount>20157</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Subject To</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Covenant Value</AttributeID>
+                  <EstimatedCount>19</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Status Code Str</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Covenant Category Code Str</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Financial Type</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Line Of Business Code</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Current Value</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Required Value</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Operand</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ID Loan</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Officer Code</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Loan Number</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ID Account</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Account Number</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Account Category Code</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Account Type Code</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Account Status Code</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Audit Frequency Str</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Officer</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Additional Data</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>CIS Entity Type Str</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Last Update</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Covenant Detail</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Loan Amount</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Avg Balance</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Current Balance</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Currently Available</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Days Past Due</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Exposed Amount</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Days To Maturity</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Loan Type Code Str</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Secured By Code Str</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+          <Aggregations>
+            <Aggregation>
+              <ID>Aggregation 0</ID>
+              <Name>Aggregation 0</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Covenant_CovenantCube</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Covenant Value</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 1</ID>
+              <Name>Aggregation 1</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Covenant_CovenantCube</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+          </Aggregations>
+        </AggregationDesign>
+      </AggregationDesigns>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

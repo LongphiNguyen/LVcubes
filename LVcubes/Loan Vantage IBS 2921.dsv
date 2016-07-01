@@ -1,0 +1,873 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="00965141-32a5-4509-b500-169716549469" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Loan Vantage IBS 2921</ID>
+  <Name>Loan Vantage IBS 2921</Name>
+  <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>Covenant</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="125" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="307" scrolltop="-3417" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="28840" y="17780" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="CovenantCustom" left="13624" top="0" logicalid="116" controlid="68" masterid="0" hint1="0" hint2="0" width="5292" height="4948" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000ac14000054130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="CovenantCustom" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="LoanCustom" left="21316" top="1111" logicalid="117" controlid="69" masterid="0" hint1="0" hint2="0" width="3000" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000b80b0000a50a0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="LoanCustom" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="18616" top="2074" logicalid="118" controlid="70" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[CovenantCustom-LoanCustom]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="69" destid="68" sourceattachpoint="14" destattachpoint="27" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="21316" y="2473" />
+                    <point x="20116" y="2473" />
+                    <point x="20116" y="2474" />
+                    <point x="18916" y="2474" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="AccountCustom" left="14219" top="7348" logicalid="119" controlid="71" masterid="0" hint1="0" hint2="0" width="4101" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000051000004d0c0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="AccountCustom" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="15870" top="4648" logicalid="120" controlid="72" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[CovenantCustom-AccountCustom]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="71" destid="68" sourceattachpoint="6" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="16269" y="7348" />
+                    <point x="16269" y="6148" />
+                    <point x="16270" y="6148" />
+                    <point x="16270" y="4948" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Loan_LoanAccount" left="5138" top="7242" logicalid="121" controlid="73" masterid="0" hint1="0" hint2="0" width="5487" height="3704" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c00006f150000780e0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="Loan_LoanAccount" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Account_LoanAccount" left="5831" top="0" logicalid="122" controlid="74" masterid="0" hint1="0" hint2="0" width="4101" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c000005100000ea120000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="Account_LoanAccount" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="7482" top="4343" logicalid="123" controlid="75" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[Loan_LoanAccount-Account_LoanAccount]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="74" destid="73" sourceattachpoint="7" destattachpoint="8" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="7881" y="4842" />
+                    <point x="7881" y="7242" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+            </DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>307</DiagramViewPortLeft>
+            <DiagramViewPortTop>-3417</DiagramViewPortTop>
+            <DiagramBoundingLeft>5138</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+          <Diagram>
+            <Name>Covenant</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="20" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-8259" scrolltop="14476" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="30268" y="14631" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Account" left="7427" top="23760" logicalid="10" controlid="1" masterid="0" hint1="0" hint2="0" width="4101" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000051000009b0f0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="Account" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Loan" left="7083" top="16360" logicalid="11" controlid="2" masterid="0" hint1="0" hint2="0" width="4789" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000b512000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="Loan" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="CovenantFacts" left="1243" top="19609" logicalid="12" controlid="3" masterid="0" hint1="0" hint2="0" width="3440" height="4896" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000700d000020130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="CovenantFacts" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Covenant" left="0" top="26905" logicalid="13" controlid="4" masterid="0" hint1="0" hint2="0" width="4683" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c00004b12000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="Covenant" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="1942" top="24205" logicalid="14" controlid="5" masterid="0" hint1="0" hint2="0" width="1321" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[CovenantFacts-Covenant]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="3" sourceattachpoint="8" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="2341" y="26905" />
+                    <point x="2341" y="25705" />
+                    <point x="2963" y="25705" />
+                    <point x="2963" y="24505" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="4383" top="22307" logicalid="15" controlid="6" masterid="0" hint1="0" hint2="0" width="3344" height="3850" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[CovenantFacts-Account]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="20" destattachpoint="21" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="7427" y="25757" />
+                    <point x="6055" y="25757" />
+                    <point x="6055" y="22607" />
+                    <point x="4683" y="22607" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="4383" top="18461" logicalid="16" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="2796" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[CovenantFacts-Loan]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="26" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="7083" y="18860" />
+                    <point x="5883" y="18860" />
+                    <point x="5883" y="20957" />
+                    <point x="4683" y="20957" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Collateral" left="0" top="9000" logicalid="17" controlid="8" masterid="0" hint1="0" hint2="0" width="3900" height="3360" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c00003c0f0000200d0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="Collateral" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="9078" top="21060" logicalid="18" controlid="9" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[Loan-Account]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="6" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="9477" y="23760" />
+                    <point x="9477" y="21360" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-8259</DiagramViewPortLeft>
+            <DiagramViewPortTop>14476</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>9000</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+          <Diagram>
+            <Name>LoanAccount</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="42" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-13005" scrolltop="-3193" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="28840" y="17780" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Loan_LoanAccount" left="0" top="6395" logicalid="36" controlid="18" masterid="0" hint1="0" hint2="0" width="4101" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c00000510000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="Loan_LoanAccount" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Account_LoanAccount" left="0" top="0" logicalid="37" controlid="19" masterid="0" hint1="0" hint2="0" width="4101" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000051000009b0f0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="Account_LoanAccount" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="1651" top="3496" logicalid="38" controlid="20" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[Loan_LoanAccount-Account_LoanAccount]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="19" destid="18" sourceattachpoint="7" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="2050" y="3995" />
+                    <point x="2050" y="6395" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="-1300" top="-1300" logicalid="39" controlid="21" masterid="0" hint1="0" hint2="0" width="2550" height="2597" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[Account_LoanAccount-Account_LoanAccount]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="19" destid="19" sourceattachpoint="16" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="0" y="897" />
+                    <point x="-1000" y="897" />
+                    <point x="-1000" y="-1000" />
+                    <point x="950" y="-1000" />
+                    <point x="950" y="0" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="-1300" top="5095" logicalid="40" controlid="22" masterid="0" hint1="0" hint2="0" width="2550" height="2550" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[Loan_LoanAccount-Loan_LoanAccount]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="18" destid="18" sourceattachpoint="16" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="0" y="7245" />
+                    <point x="-1000" y="7245" />
+                    <point x="-1000" y="5395" />
+                    <point x="950" y="5395" />
+                    <point x="950" y="6395" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+            </DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-13005</DiagramViewPortLeft>
+            <DiagramViewPortTop>-3193</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Loan Vantage IBS 2921</DataSourceID>
+  <Schema>
+    <xs:schema id="Loan_x0020_Vantage_x0020_IBS_x0020_2921" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Loan_x0020_Vantage_x0020_IBS_x0020_2921" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="eaa812b6-2466-4abe-8955-aa955f6f90da">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="Loan_LoanAccount" msprop:design-time-name="08de0070-23de-49d9-b166-5c265ded003f" msprop:IsLogical="True" msprop:FriendlyName="Loan_LoanAccount" msprop:DbTableName="Loan_LoanAccount" msprop:TableType="View" msprop:Description="" msprop:QueryDefinition="SELECT        loan.IDLoan, acc.IDAccount, COALESCE (loan.OfficerCode, '') AS OfficerCode, COALESCE (loan.OfficerStr, '') AS Officer, COALESCE (loan.LoanNumber, '') AS LoanNumber, COALESCE (acc.AvgBalance, - 1) &#xD;&#xA;                         AS AvgBalance, acc.AvgBalance AS MEASUREAvgBalance, loan.LoanAmount, loan.LoanDate, COALESCE (loan.CurBalance, - 1) AS CurrentBalance, loan.CurBalance AS MEASURECurrentBalance, &#xD;&#xA;                         COALESCE (loan.CurrAvail, - 1) AS CurrentlyAvailable, loan.CurrAvail AS MEASURECurrentlyAvailable, COALESCE (loan.DaysPastDue, - 1) AS DaysPastDue, loan.ExposedAmount, COALESCE (DATEDIFF([DAY], &#xD;&#xA;                         GETDATE(), loan.MaturityDate), - 1) AS DaysToMaturity, loan.LoanTypeCodeStr, loan.SecuredByCodeStr, COALESCE (loan.OrigAmt, - 1) AS OrigAmount, loan.OrigAmt AS MEASUREOrigAmount, &#xD;&#xA;                         COALESCE (loan.InterestRate, 0) AS InterestRate, loan.MaturityDate, loan.NextDueDate, loan.LastPmtDt AS LastPaymentDate, loan.LoanGradeStr, loan.TotalExposure, COALESCE (loan.LateDays30, - 1) &#xD;&#xA;                         AS LateDays30, COALESCE (loan.LateDays60, - 1) AS LateDays60, COALESCE (loan.LateDays90, - 1) AS LateDays90, loan.IdLoanSource&#xD;&#xA;FROM            IbClue.LoanView AS loan INNER JOIN&#xD;&#xA;                         IbClue.AccountView AS acc ON loan.IDAccount = acc.IDAccount" msprop:QueryBuilder="SpecificQueryBuilder">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="IDLoan" msprop:design-time-name="66f1cf91-9ae0-45f7-8b0b-5bce82778d12" msprop:DbColumnName="IDLoan" msprop:FriendlyName="IDLoan" type="xs:int" />
+                  <xs:element name="OfficerCode" msdata:ReadOnly="true" msprop:design-time-name="ab218f7f-f0ae-438d-8e43-cefcc232850c" msprop:DbColumnName="OfficerCode" msprop:FriendlyName="OfficerCode" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Officer" msdata:ReadOnly="true" msprop:design-time-name="48f0b331-6b85-4403-838d-2053dadabe9d" msprop:DbColumnName="Officer" msprop:FriendlyName="Officer" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="80" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="LoanNumber" msdata:ReadOnly="true" msprop:design-time-name="c7d0da54-0c24-40f9-8f97-06817f29160a" msprop:DbColumnName="LoanNumber" msprop:FriendlyName="LoanNumber" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AvgBalance" msprop:design-time-name="818e0a80-0458-4846-bc87-26317be0fa6e" msprop:DbColumnName="AvgBalance" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="LoanAmount" msprop:design-time-name="0d79dbd1-9f9a-477f-b2ee-10235383c7a1" msprop:DbColumnName="LoanAmount" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="LoanDate" msprop:design-time-name="20b2a3f1-4b3c-461a-aa28-15189829eafa" msprop:DbColumnName="LoanDate" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="IDAccount" msprop:design-time-name="c63a680d-2e96-4887-b057-370899730ac9" msprop:DbColumnName="IDAccount" type="xs:int" minOccurs="0" />
+                  <xs:element name="CurrentBalance" msprop:design-time-name="e34a034c-4142-4c82-bcc0-7f49fe623c51" msprop:DbColumnName="CurrentBalance" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="CurrentlyAvailable" msprop:design-time-name="9f964fdf-46f0-4afd-a845-e744fef193c6" msprop:DbColumnName="CurrentlyAvailable" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="DaysPastDue" msprop:design-time-name="fd8affc8-b254-483f-8259-54b7c7a08251" msprop:DbColumnName="DaysPastDue" type="xs:int" minOccurs="0" />
+                  <xs:element name="ExposedAmount" msprop:design-time-name="050f545f-25fb-49b9-bc24-962749abcf49" msprop:DbColumnName="ExposedAmount" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="DaysToMaturity" msprop:design-time-name="f66c3220-0767-4afb-a15b-af7c536dbad6" msprop:DbColumnName="DaysToMaturity" type="xs:int" minOccurs="0" />
+                  <xs:element name="LoanTypeCodeStr" msprop:design-time-name="d933c5d5-ef4c-4061-8f78-2143a7bb3363" msprop:DbColumnName="LoanTypeCodeStr" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="80" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="SecuredByCodeStr" msprop:design-time-name="0df4e731-cae2-429b-9030-0089dc18cf2a" msprop:DbColumnName="SecuredByCodeStr" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="80" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="MEASUREAvgBalance" msprop:design-time-name="38f1e995-5a92-4eff-aa60-a8d8df1ac78c" msprop:DbColumnName="MEASUREAvgBalance" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="MEASURECurrentBalance" msprop:design-time-name="410e7f68-e24c-427e-819e-fcc0784e7d89" msprop:DbColumnName="MEASURECurrentBalance" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="MEASURECurrentlyAvailable" msprop:design-time-name="0b36ce42-6548-49e3-8f98-4340c40aa11f" msprop:DbColumnName="MEASURECurrentlyAvailable" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="OrigAmount" msprop:design-time-name="ebd6cd03-1571-4023-a5d4-d52d8c71d4cf" msprop:DbColumnName="OrigAmount" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="InterestRate" msprop:design-time-name="048ecdac-ce9a-4f8c-b617-30d4b0928261" msprop:DbColumnName="InterestRate" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="MaturityDate" msprop:design-time-name="4cb3141e-1fca-4726-ac93-6b65eb1757ee" msprop:DbColumnName="MaturityDate" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="NextDueDate" msprop:design-time-name="cb29eaf7-3737-476e-aad0-84c874260527" msprop:DbColumnName="NextDueDate" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="LastPaymentDate" msprop:design-time-name="449360d9-e6b7-4d2b-bead-26e7beeb4d97" msprop:DbColumnName="LastPaymentDate" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="LoanGradeStr" msprop:design-time-name="54bcbaea-74a1-423d-95f1-0cc79ad70758" msprop:DbColumnName="LoanGradeStr" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="80" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="TotalExposure" msprop:design-time-name="746d1818-2e52-4f17-8e5a-c527413cfea8" msprop:DbColumnName="TotalExposure" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="LateDays30" msprop:design-time-name="5f03f4cd-9de8-4880-8eb1-ae869afa3761" msprop:DbColumnName="LateDays30" type="xs:int" minOccurs="0" />
+                  <xs:element name="LateDays60" msprop:design-time-name="4f85d0c0-681c-4de9-8f0a-32debc75a271" msprop:DbColumnName="LateDays60" type="xs:int" minOccurs="0" />
+                  <xs:element name="LateDays90" msprop:design-time-name="e69b6251-b2f8-46e3-866e-83a70a77ff23" msprop:DbColumnName="LateDays90" type="xs:int" minOccurs="0" />
+                  <xs:element name="MEASUREOrigAmount" msprop:design-time-name="369c54de-1096-403f-8f47-51b62da7e60c" msprop:DbColumnName="MEASUREOrigAmount" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="IdLoanSource" msprop:design-time-name="3caf626e-b77d-424a-88b1-7ee41dc851c3" msprop:DbColumnName="IdLoanSource" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Account_LoanAccount" msprop:design-time-name="5db844ab-687e-4449-b09d-7432a0b7364f" msprop:IsLogical="True" msprop:FriendlyName="Account_LoanAccount" msprop:DbTableName="Account_LoanAccount" msprop:TableType="View" msprop:Description="" msprop:QueryDefinition="SELECT        IDAccount, COALESCE (AccountNumber, '') AS AccountNumber, COALESCE (AccountStatusCode, '') AS AccountStatusCode, COALESCE (AccountTypeCode, '') AS AccountTypeCode, COALESCE (AccountCategoryCode,&#xD;&#xA;                          '') AS AccountCategoryCode, COALESCE (AccountDesc, '') AS AccountDescription, COALESCE (ShortName, '') AS ShortName, IDAccountSource&#xD;&#xA;FROM            IbClue.AccountView AS acc" msprop:QueryBuilder="SpecificQueryBuilder">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="IDAccount" msprop:design-time-name="4f44b5c6-f89c-4c03-bb15-a389506504ef" msprop:DbColumnName="IDAccount" msprop:FriendlyName="IDAccount" type="xs:int" />
+                  <xs:element name="AccountNumber" msprop:design-time-name="fa3ff855-5262-49ed-9ba7-89564012d487" msprop:DbColumnName="AccountNumber" msprop:FriendlyName="AccountNumber" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AccountStatusCode" msprop:design-time-name="d15e3576-6032-4a29-963a-c4e8b60f81a6" msprop:DbColumnName="AccountStatusCode" msprop:FriendlyName="AccountStatusCode" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AccountTypeCode" msprop:design-time-name="6059d550-8040-40f8-8fbc-08608b4e9831" msprop:DbColumnName="AccountTypeCode" msprop:FriendlyName="AccountTypeCode" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AccountCategoryCode" msprop:design-time-name="0ded19be-8816-42e5-a7d4-abd0ceefb42a" msprop:DbColumnName="AccountCategoryCode" msprop:FriendlyName="AccountCategoryCode" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ShortName" msprop:design-time-name="d7b9ce36-f737-45e2-8eae-61a4be3a7601" msprop:DbColumnName="ShortName" msprop:FriendlyName="ShortName" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="150" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="IDAccountSource" msprop:design-time-name="2e863511-25ba-43d5-bb5b-a8dac289067a" msprop:DbColumnName="IDAccountSource" type="xs:int" minOccurs="0" />
+                  <xs:element name="AccountDescription" msprop:design-time-name="5d38badc-1178-4899-b2d5-b110e96accf0" msprop:DbColumnName="AccountDescription" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="60" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Account" msprop:design-time-name="15e4d8c0-1611-4764-9a46-8f39866968a3" msprop:IsLogical="True" msprop:FriendlyName="Account" msprop:DbTableName="Account" msprop:TableType="View" msprop:Description="" msprop:QueryDefinition="SELECT        IDAccount, NULLIF (LTRIM(RTRIM(AccountNumber)), '') AS AccountNumber, NULLIF (LTRIM(RTRIM(AccountStatusCode)), '') AS AccountStatusCode, NULLIF (LTRIM(RTRIM(AccountTypeCode)), '') &#xD;&#xA;                         AS AccountTypeCode, NULLIF (LTRIM(RTRIM(AccountCategoryCode)), '') AS AccountCategoryCode, NULLIF (LTRIM(RTRIM(AccountDesc)), '') AS AccountDesc, NULLIF (LTRIM(RTRIM(ShortName)), '') &#xD;&#xA;                         AS ShortName&#xD;&#xA;FROM            IbClue.AccountView AS acc&#xD;&#xA;WHERE        (IDAccountSource IS NULL)" msprop:QueryBuilder="SpecificQueryBuilder">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="IDAccount" msprop:design-time-name="37619071-1f79-449e-9b1f-404f30f88634" msprop:DbColumnName="IDAccount" msprop:FriendlyName="IDAccount" type="xs:int" />
+                  <xs:element name="AccountNumber" msdata:ReadOnly="true" msprop:design-time-name="a6c25df3-794b-4be8-8ff8-3102fd12cd71" msprop:DbColumnName="AccountNumber" msprop:FriendlyName="AccountNumber" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AccountStatusCode" msdata:ReadOnly="true" msprop:design-time-name="6a79698b-1ae7-496d-b2cf-62d1db779ddf" msprop:DbColumnName="AccountStatusCode" msprop:FriendlyName="AccountStatusCode" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AccountTypeCode" msdata:ReadOnly="true" msprop:design-time-name="41a5c776-e9b2-407c-8e3d-652d42d30bcf" msprop:DbColumnName="AccountTypeCode" msprop:FriendlyName="AccountTypeCode" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AccountCategoryCode" msdata:ReadOnly="true" msprop:design-time-name="6fba43b7-550c-4550-96f7-005bebbdac5d" msprop:DbColumnName="AccountCategoryCode" msprop:FriendlyName="AccountCategoryCode" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AccountDesc" msdata:ReadOnly="true" msprop:design-time-name="a5ebef00-5f1e-40c8-813b-8a59ce0c25f7" msprop:DbColumnName="AccountDesc" msprop:FriendlyName="AccountDesc" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="60" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ShortName" msdata:ReadOnly="true" msprop:design-time-name="73f0a5be-88b5-4229-ab69-f5247cb703f2" msprop:DbColumnName="ShortName" msprop:FriendlyName="ShortName" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="150" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Loan" msprop:design-time-name="e00c91ea-59f3-4fb3-b34b-0981edc48b4a" msprop:IsLogical="True" msprop:FriendlyName="Loan" msprop:DbTableName="Loan" msprop:TableType="View" msprop:Description="" msprop:QueryDefinition="SELECT        loan.IDLoan, acc.IDAccount, NULLIF (LTRIM(RTRIM(loan.OfficerCode)), '') AS OfficerCode, NULLIF (LTRIM(RTRIM(loan.OfficerStr)), '') AS Officer, NULLIF (LTRIM(RTRIM(loan.LoanNumber)), '') AS LoanNumber, &#xD;&#xA;                         acc.AvgBalance, loan.LoanAmount, loan.LoanDate, YEAR(loan.LoanDate) AS LoanDateYear, DATEPART(quarter, loan.LoanDate) AS LoanDateQuarter, MONTH(loan.LoanDate) AS LoanDateMonth, &#xD;&#xA;                         DATENAME([month], loan.LoanDate) AS LoanDateMonthName, loan.CurBalance AS CurrentBalance, loan.CurrAvail AS CurrentlyAvailable, loan.DaysPastDue, loan.ExposedAmount, DATEDIFF([DAY], GETDATE(), &#xD;&#xA;                         loan.MaturityDate) AS DaysToMaturity, loan.LoanTypeCodeStr, loan.SecuredByCodeStr, loan.AccountNumber&#xD;&#xA;FROM            IbClue.LoanView AS loan INNER JOIN&#xD;&#xA;                         IbClue.AccountView AS acc ON loan.IDAccount = acc.IDAccount&#xD;&#xA;WHERE        (loan.IdLoanSource IS NULL)" msprop:QueryBuilder="SpecificQueryBuilder">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="IDLoan" msprop:design-time-name="9d2d7aeb-f1bc-419d-8fe3-e13de3ed406b" msprop:DbColumnName="IDLoan" msprop:FriendlyName="IDLoan" type="xs:int" minOccurs="0" />
+                  <xs:element name="IDAccount" msprop:design-time-name="3d9308b8-b8ec-47d4-8b2e-72b3d6897ded" msprop:DbColumnName="IDAccount" msprop:FriendlyName="IDAccount" type="xs:int" minOccurs="0" />
+                  <xs:element name="OfficerCode" msdata:ReadOnly="true" msprop:design-time-name="9a858df9-9f79-4fbf-a97d-751c44e77716" msprop:DbColumnName="OfficerCode" msprop:FriendlyName="OfficerCode" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Officer" msdata:ReadOnly="true" msprop:design-time-name="37029922-4043-4ca6-99d5-a16897af1dca" msprop:DbColumnName="Officer" msprop:FriendlyName="Officer" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="80" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="LoanNumber" msdata:ReadOnly="true" msprop:design-time-name="5917d5c8-62bf-4353-bfcf-35cfa30f8ee0" msprop:DbColumnName="LoanNumber" msprop:FriendlyName="LoanNumber" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AvgBalance" msdata:ReadOnly="true" msprop:design-time-name="d00f457f-ed39-4251-b695-4f10ff151942" msprop:DbColumnName="AvgBalance" msprop:FriendlyName="AvgBalance" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="LoanAmount" msprop:design-time-name="ca01b95b-4499-409b-8bbd-8e92460defaa" msprop:DbColumnName="LoanAmount" msprop:FriendlyName="LoanAmount" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="LoanDate" msprop:design-time-name="c9cea4ed-b4c4-4add-b9de-d4314d9cd5c3" msprop:DbColumnName="LoanDate" msprop:FriendlyName="LoanDate" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="LoanDateYear" msdata:ReadOnly="true" msprop:design-time-name="c32107e1-9048-4829-ad87-c0b542cbec5e" msprop:DbColumnName="LoanDateYear" msprop:FriendlyName="LoanDateYear" type="xs:int" minOccurs="0" />
+                  <xs:element name="CurrentBalance" msdata:ReadOnly="true" msprop:design-time-name="5b3de2ed-1019-4330-94cd-6965d233de82" msprop:DbColumnName="CurrentBalance" msprop:FriendlyName="CurrentBalance" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="CurrentlyAvailable" msdata:ReadOnly="true" msprop:design-time-name="3864df1c-da07-48d1-8bf4-716a7caf89d6" msprop:DbColumnName="CurrentlyAvailable" msprop:FriendlyName="CurrentlyAvailable" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="DaysPastDue" msdata:ReadOnly="true" msprop:design-time-name="d8f1ad50-aff9-436d-be20-d90f801d4353" msprop:DbColumnName="DaysPastDue" msprop:FriendlyName="DaysPastDue" type="xs:int" minOccurs="0" />
+                  <xs:element name="ExposedAmount" msprop:design-time-name="c4e7af17-47a3-47db-a5ec-000f807a396d" msprop:DbColumnName="ExposedAmount" msprop:FriendlyName="ExposedAmount" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="DaysToMaturity" msdata:ReadOnly="true" msprop:design-time-name="a92a9ccc-2025-4f65-a261-5f386b02a656" msprop:DbColumnName="DaysToMaturity" msprop:FriendlyName="DaysToMaturity" type="xs:int" minOccurs="0" />
+                  <xs:element name="LoanTypeCodeStr" msprop:design-time-name="75dfebc4-b040-43e1-adf3-31e61fe83f8d" msprop:DbColumnName="LoanTypeCodeStr" msprop:FriendlyName="LoanTypeCodeStr" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="80" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="SecuredByCodeStr" msprop:design-time-name="1778aac8-5a1e-4e25-b945-92490260def1" msprop:DbColumnName="SecuredByCodeStr" msprop:FriendlyName="SecuredByCodeStr" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="80" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="LoanDateQuarter" msprop:design-time-name="c153e230-1d52-4d57-98fb-9e4f7301a100" msprop:DbColumnName="LoanDateQuarter" type="xs:int" minOccurs="0" />
+                  <xs:element name="LoanDateMonth" msprop:design-time-name="d015ebac-43c2-4a8d-a37d-d75863d2341f" msprop:DbColumnName="LoanDateMonth" type="xs:int" minOccurs="0" />
+                  <xs:element name="LoanDateMonthName" msprop:design-time-name="403a73cb-7773-4090-b698-2fa879ff88fb" msprop:DbColumnName="LoanDateMonthName" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AccountNumber" msprop:DbColumnName="AccountNumber" msprop:design-time-name="f61963c4-0618-4f02-8717-68e01b0f9689" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="CovenantFacts" msprop:design-time-name="589eae3f-e3ac-4d63-a484-7b6e0978c8d6" msprop:IsLogical="True" msprop:FriendlyName="CovenantFacts" msprop:DbTableName="CovenantFacts" msprop:TableType="View" msprop:Description="" msprop:QueryDefinition="SELECT        ctv.IDCovenantTrack, loan.LoanAmount, loan.OrigAmt, loan.CurrAvail, acc.CurBalance, acc.AvgBalance, loan.IDLoan, acc.IDAccount&#xD;&#xA;FROM            IbClue.CovenantTrackView AS ctv INNER JOIN&#xD;&#xA;                         IbClue.LoanView AS loan ON ctv.IdLoanLink = loan.IDLoan INNER JOIN&#xD;&#xA;                         IbClue.AccountView AS acc ON loan.IDAccount = acc.IDAccount" msprop:QueryBuilder="SpecificQueryBuilder">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="IDCovenantTrack" msprop:design-time-name="7b5f428e-fa9e-40a8-9c2b-3671ebc8cabf" msprop:DbColumnName="IDCovenantTrack" msprop:FriendlyName="IDCovenantTrack" type="xs:int" minOccurs="0" />
+                  <xs:element name="LoanAmount" msprop:design-time-name="3b76a010-cde9-4140-b06d-10d2828a6585" msprop:DbColumnName="LoanAmount" msprop:FriendlyName="LoanAmount" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="OrigAmt" msprop:design-time-name="f6233899-26e6-42b6-bf1a-6052c2b16f7b" msprop:DbColumnName="OrigAmt" msprop:FriendlyName="OrigAmt" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="CurrAvail" msprop:design-time-name="9305c4f3-88c0-427f-8e44-03eaecfc1f66" msprop:DbColumnName="CurrAvail" msprop:FriendlyName="CurrAvail" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="CurBalance" msprop:design-time-name="24046705-b0c7-4f37-810a-71133e4cd020" msprop:DbColumnName="CurBalance" msprop:FriendlyName="CurBalance" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="AvgBalance" msprop:design-time-name="e01f2b24-156b-47ba-be8a-d8e1c5f7f40a" msprop:DbColumnName="AvgBalance" msprop:FriendlyName="AvgBalance" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="IDLoan" msprop:design-time-name="216f12ce-2672-41ef-bbbb-9df7550624ee" msprop:DbColumnName="IDLoan" msprop:FriendlyName="IDLoan" type="xs:int" minOccurs="0" />
+                  <xs:element name="IDAccount" msprop:design-time-name="dc1048df-d0bb-433a-bcdf-281d5641e727" msprop:DbColumnName="IDAccount" msprop:FriendlyName="IDAccount" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Covenant" msprop:design-time-name="67214c7c-1e5a-43b3-b604-d62109bea129" msprop:IsLogical="True" msprop:FriendlyName="Covenant" msprop:DbTableName="Covenant" msprop:TableType="View" msprop:Description="" msprop:QueryDefinition="SELECT        ctv.IDCovenantTrack, ctv.SubjectTo, ctv.CovenantValue, &#xD;&#xA;                         (CASE ctv.auditfrequency WHEN 0 THEN 'Continuous' WHEN 1 THEN 'Monthly' WHEN 2 THEN 'Quarterly' WHEN 3 THEN 'Fiscal Quarter' WHEN 4 THEN 'Semiannually' WHEN 5 THEN 'Fiscal Semiannual' WHEN 6&#xD;&#xA;                          THEN 'Annually' WHEN 7 THEN 'Fiscal Year' WHEN 8 THEN 'Weekly' WHEN 9 THEN 'Filing' WHEN 10 THEN 'Five Years' WHEN 11 THEN 'Four Months' WHEN 12 THEN 'One Time' ELSE NULL END) &#xD;&#xA;                         AS AuditFrequencyStr, NULLIF (LTRIM(RTRIM(ctv.StatusCodeStr)), '') AS StatusCodeStr, NULLIF (LTRIM(RTRIM(ctv.StatusCode)), '') AS StatusCode, NULLIF (LTRIM(RTRIM(ctv.CovenantCategoryCodeStr)), '') &#xD;&#xA;                         AS CovenantCategoryCodeStr, NULLIF (LTRIM(RTRIM(ctv.FinancialType)), '') AS FinancialType, NULLIF (LTRIM(RTRIM(ctv.OfficerCode)), '') AS OfficerCode, NULLIF (LTRIM(RTRIM(ctv.OfficerCodeStr)), '') &#xD;&#xA;                         AS OfficerCodeStr, ctv.LineOfBusinessCode, ctv.CurrentValue, ctv.RequiredValue, NULLIF (LTRIM(RTRIM(ctv.Operand)), '') AS Operand, NULLIF (LTRIM(RTRIM(ctv.CovenantDetail)), '') AS CovenantDetail, &#xD;&#xA;                         ctv.NumberOfDaysAfter, NULLIF (LTRIM(RTRIM(ctv.AdditionalData)), '') AS AdditionalData, NULLIF (LTRIM(RTRIM(ctv.CISEntityTypeStr)), '') AS CISEntityTypeStr, ctv.LastUpdate&#xD;&#xA;FROM            IbClue.CovenantTrackView AS ctv INNER JOIN&#xD;&#xA;                         IbClue.LoanView AS loan ON ctv.IdLoanLink = loan.IDLoan INNER JOIN&#xD;&#xA;                         IbClue.AccountView AS acc ON loan.IDAccount = acc.IDAccount" msprop:QueryBuilder="SpecificQueryBuilder">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="IDCovenantTrack" msprop:design-time-name="cdc6b083-504d-4c5f-bb38-2cf8caf50cb9" msprop:DbColumnName="IDCovenantTrack" msprop:FriendlyName="IDCovenantTrack" type="xs:int" />
+                  <xs:element name="SubjectTo" msprop:design-time-name="075a3004-5464-4fdc-84f3-688bb5015602" msprop:DbColumnName="SubjectTo" msprop:FriendlyName="SubjectTo" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="AuditFrequencyStr" msdata:ReadOnly="true" msprop:design-time-name="f4f178fd-b66e-4e72-affd-0829e6779428" msprop:DbColumnName="AuditFrequencyStr" msprop:FriendlyName="AuditFrequencyStr" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="17" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="StatusCodeStr" msdata:ReadOnly="true" msprop:design-time-name="b05f618f-e835-4f94-9542-74c59d0e9fcb" msprop:DbColumnName="StatusCodeStr" msprop:FriendlyName="StatusCodeStr" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="80" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CovenantCategoryCodeStr" msdata:ReadOnly="true" msprop:design-time-name="adc88005-f391-41a0-a36a-e16ee42e43e5" msprop:DbColumnName="CovenantCategoryCodeStr" msprop:FriendlyName="CovenantCategoryCodeStr" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="80" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="FinancialType" msdata:ReadOnly="true" msprop:design-time-name="f91d6ea0-75ef-4568-86d4-987af5395df6" msprop:DbColumnName="FinancialType" msprop:FriendlyName="FinancialType" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="1" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="LineOfBusinessCode" msprop:design-time-name="b11e8ba5-cb9c-4a45-a124-21d36fb6ae99" msprop:DbColumnName="LineOfBusinessCode" msprop:FriendlyName="LineOfBusinessCode" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CurrentValue" msprop:design-time-name="c17f7723-09aa-4dcc-9456-b272cc4e1fae" msprop:DbColumnName="CurrentValue" msprop:FriendlyName="CurrentValue" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="RequiredValue" msprop:design-time-name="836250ff-898e-43ef-aa45-9a2c20b44d52" msprop:DbColumnName="RequiredValue" msprop:FriendlyName="RequiredValue" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Operand" msdata:ReadOnly="true" msprop:design-time-name="a44521b7-739d-4561-9a5d-1d4dfa02618f" msprop:DbColumnName="Operand" msprop:FriendlyName="Operand" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="2" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CovenantDetail" msprop:design-time-name="57fce781-1e52-45c9-9c01-075ecd82eb2e" msprop:DbColumnName="CovenantDetail" msprop:FriendlyName="CovenantDetail" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="4000" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="NumberOfDaysAfter" msprop:design-time-name="8cf24bf7-7b51-4b60-8f14-3e440bb252db" msprop:DbColumnName="NumberOfDaysAfter" msprop:FriendlyName="NumberOfDaysAfter" type="xs:int" minOccurs="0" />
+                  <xs:element name="AdditionalData" msprop:design-time-name="d3d31925-7b98-4f62-a791-a3a7e1447ac2" msprop:DbColumnName="AdditionalData" msprop:FriendlyName="AdditionalData" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="2000" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CISEntityTypeStr" msprop:design-time-name="2556f00d-10c5-435f-ae90-a3ab4ee62f54" msprop:DbColumnName="CISEntityTypeStr" msprop:FriendlyName="CISEntityTypeStr" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="LastUpdate" msprop:design-time-name="90d4596f-cc8e-4d7a-be3d-ec8431bb350d" msprop:DbColumnName="LastUpdate" msprop:FriendlyName="LastUpdate" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="CovenantValue" msprop:design-time-name="cb4c5a3e-86dc-4f84-91d6-036f4556898c" msprop:DbColumnName="CovenantValue" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="OfficerCode" msprop:design-time-name="5864d106-94ac-40b7-9941-98e5c1d7898a" msprop:DbColumnName="OfficerCode" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="OfficerCodeStr" msprop:design-time-name="fcc94947-e70f-44a0-a490-0caf1f3546b6" msprop:DbColumnName="OfficerCodeStr" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="80" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="StatusCode" msprop:design-time-name="20b91495-1d14-49bb-a67c-da4f9789bae0" msprop:DbColumnName="StatusCode" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Collateral" msprop:design-time-name="a59cac36-31c4-4e6f-a988-a9f8847c04ed" msprop:IsLogical="True" msprop:FriendlyName="Collateral" msprop:DbTableName="Collateral" msprop:TableType="View" msprop:Description="" msprop:QueryDefinition="SELECT        Description, IDCollateral, OrigPrice, COALESCE (CategoryCode, '') AS CategoryCode, CategoryStr, COALESCE (CollateralTypeCode, '') AS CollateralTypeCode, CollateralTypeStr&#xD;&#xA;FROM            IbClue.CollateralView AS coll" msprop:QueryBuilder="SpecificQueryBuilder">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Description" msprop:design-time-name="7d6440e5-3814-4d55-a971-c5da8bb3bad3" msprop:DbColumnName="Description" msprop:FriendlyName="Description" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="500" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="IDCollateral" msprop:design-time-name="26a308e5-9bd0-4972-a189-6393ba2c3a7f" msprop:DbColumnName="IDCollateral" type="xs:int" />
+                  <xs:element name="OrigPrice" msprop:design-time-name="a3af7ab2-4b1a-40cc-b864-7843bf533814" msprop:DbColumnName="OrigPrice" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="CategoryStr" msprop:design-time-name="9911b49a-0c17-4b44-8bce-23ec7881a6d4" msprop:DbColumnName="CategoryStr" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="80" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CollateralTypeStr" msprop:design-time-name="b4c24ec3-e0f6-4435-8328-5d9e2cd40a2e" msprop:DbColumnName="CollateralTypeStr" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="80" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CategoryCode" msprop:design-time-name="cb9bb483-d0f8-45db-bc6a-86c0f71931ff" msprop:DbColumnName="CategoryCode" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CollateralTypeCode" msprop:design-time-name="9630235a-bb1b-48ce-a228-cfccc2645e77" msprop:DbColumnName="CollateralTypeCode" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="15" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Loan_LoanAccount" />
+          <xs:field xpath="IDLoan" />
+        </xs:unique>
+        <xs:unique name="Account_LoanAccount_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Account_LoanAccount" />
+          <xs:field xpath="IDAccount" />
+        </xs:unique>
+        <xs:unique name="Account_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Account" />
+          <xs:field xpath="IDAccount" />
+        </xs:unique>
+        <xs:unique name="Loan_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Loan" />
+          <xs:field xpath="IDLoan" />
+        </xs:unique>
+        <xs:unique name="Covenant_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Covenant" />
+          <xs:field xpath="IDCovenantTrack" />
+        </xs:unique>
+        <xs:unique name="Collateral_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Collateral" />
+          <xs:field xpath="IDCollateral" />
+        </xs:unique>
+      </xs:element>
+      <xs:annotation>
+        <xs:appinfo>
+          <msdata:Relationship name="Loan_LoanAccount-Account_LoanAccount" msdata:parent="Account_LoanAccount" msdata:child="Loan_LoanAccount" msdata:parentkey="IDAccount" msdata:childkey="IDAccount" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="Account_LoanAccount-Account_LoanAccount" msdata:parent="Account_LoanAccount" msdata:child="Account_LoanAccount" msdata:parentkey="IDAccount" msdata:childkey="IDAccountSource" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="Loan_LoanAccount-Loan_LoanAccount" msdata:parent="Loan_LoanAccount" msdata:child="Loan_LoanAccount" msdata:parentkey="IDLoan" msdata:childkey="IdLoanSource" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="CovenantFacts-Covenant" msdata:parent="Covenant" msdata:child="CovenantFacts" msdata:parentkey="IDCovenantTrack" msdata:childkey="IDCovenantTrack" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="CovenantFacts-Account" msdata:parent="Account" msdata:child="CovenantFacts" msdata:parentkey="IDAccount" msdata:childkey="IDAccount" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="CovenantFacts-Loan" msdata:parent="Loan" msdata:child="CovenantFacts" msdata:parentkey="IDLoan" msdata:childkey="IDLoan" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="Loan-Account" msdata:parent="Account" msdata:child="Loan" msdata:parentkey="IDAccount" msdata:childkey="IDAccount" msprop:IsLogical="True" msprop:Description="" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:schema>
+    <Loan_x0020_Vantage_x0020_IBS_x0020_2921 xmlns="" />
+  </Schema>
+</DataSourceView>

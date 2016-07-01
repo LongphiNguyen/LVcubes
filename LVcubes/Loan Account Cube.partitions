@@ -1,0 +1,133 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="2dfe91ef-7477-4fea-a905-145f923086d1" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Loan Account Cube</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Loan Loan Account</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="53ea6b70-03f2-4e83-abe7-ba4804b9b793">
+          <ID>Loan Loan Account</ID>
+          <Name>Loan Loan Account</Name>
+          <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="6f2c5271-c244-4ce6-a9af-eec150f8100c">
+            <DataSourceViewID>Loan Vantage IBS 2921</DataSourceViewID>
+            <TableID>Loan_LoanAccount</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <EstimatedRows>259773</EstimatedRows>
+          <AggregationDesignID>AggregationDesign</AggregationDesignID>
+        </Partition>
+      </Partitions>
+      <AggregationDesigns>
+        <AggregationDesign>
+          <ID>AggregationDesign</ID>
+          <Name>AggregationDesign</Name>
+          <CreatedTimestamp>2016-06-28T22:47:14.636667Z</CreatedTimestamp>
+          <LastSchemaUpdate>2016-06-28T22:47:14.636667Z</LastSchemaUpdate>
+          <EstimatedRows>259773</EstimatedRows>
+          <Dimensions>
+            <Dimension>
+              <CubeDimensionID>Loan_LoanAccount</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Loan</AttributeID>
+                  <EstimatedCount>259773</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Loan Number</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ID Account</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Officer Code</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Account Number</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Account Status Code</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Account Type Code</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Account Category Code</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Short Name</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Current Balance</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Currently Available</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Avg Balance</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Exposed Amount</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Days To Maturity</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Loan Type Code Str</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Secured By Code Str</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Late Days30</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Late Days60</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Late Days90</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Total Exposure</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Loan Grade Str</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Last Payment Date</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Next Due Date</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Maturity Date</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Interest Rate</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Orig Amount</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+          <Aggregations>
+            <Aggregation>
+              <ID>Aggregation 0</ID>
+              <Name>Aggregation 0</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Loan_LoanAccount</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+          </Aggregations>
+        </AggregationDesign>
+      </AggregationDesigns>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

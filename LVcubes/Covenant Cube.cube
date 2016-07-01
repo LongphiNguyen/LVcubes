@@ -1,0 +1,356 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="337e2784-2590-4916-bbad-212edc55a48e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Covenant Cube</ID>
+  <Name>Covenant Cube</Name>
+  <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-9067" scrolltop="-3244" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="27331" y="16457" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Account_CovenantCube" left="20" top="6819" logicalid="6" controlid="1" masterid="0" hint1="0" hint2="0" width="4048" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000d00f00004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="AccountCustom" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Covenant_CovenantCube" left="311" top="0" logicalid="7" controlid="2" masterid="0" hint1="0" hint2="0" width="3466" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00008a0d000043110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="CovenantCustom" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Loan_CovenantCube" left="6177" top="847" logicalid="8" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000b80b0000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="LoanCustom" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1645" top="4119" logicalid="9" controlid="4" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[CovenantCustom-AccountCustom]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="6" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2044" y="6819" />
+              <point x="2044" y="4419" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3477" top="1810" logicalid="10" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[CovenantCustom-LoanCustom]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="2" sourceattachpoint="14" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6177" y="2209" />
+              <point x="3777" y="2209" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-9067</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3244</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="3582d060-77a7-45b8-905b-c35bddc0f911">
+      <ID>Covenant_CovenantCube</ID>
+      <Name>Covenant</Name>
+      <DimensionID>Covenant_CovenantCube</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e5f7d34e-2099-4d3f-8c90-4cf3a4d06314">
+          <AttributeID>ID Covenant Track</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2272e1e6-cd29-4128-ab1d-0f64b3f5afb6">
+          <AttributeID>Subject To</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bfb86735-3ec3-4997-9053-87d0b8472bc5">
+          <AttributeID>Covenant Value</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="76876de9-d716-4db2-83d5-113cc74f5cf5">
+          <AttributeID>Status Code Str</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7ecb82ea-c0a9-4d0d-9764-b4bf00edba08">
+          <AttributeID>Covenant Category Code Str</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ede609dd-33ca-48dc-8347-0e37c34edd9e">
+          <AttributeID>Financial Type</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5d80274f-55c3-4662-a4a8-2fc4e8cf9dfc">
+          <AttributeID>Line Of Business Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="40abaf8a-41f7-4d7d-95ec-ac070683d2b8">
+          <AttributeID>Current Value</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f97ab78a-1f7c-4f1b-9eab-3ac5bfecb772">
+          <AttributeID>Required Value</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8fd76e92-61af-4003-85f1-c3d0d8697b95">
+          <AttributeID>Operand</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d232ab7c-16fd-4957-8712-e2f687e6d924">
+          <AttributeID>ID Loan</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="924c3c31-37cd-44f9-94aa-a9e247974687">
+          <AttributeID>Officer Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="706f1397-6f01-4288-8e8e-943e54b8279f">
+          <AttributeID>Loan Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="756d494c-3692-4ef0-bf2a-8018ee09a99b">
+          <AttributeID>ID Account</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e795267a-efc3-4ac2-b77a-e20a972fdd84">
+          <AttributeID>Account Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="97853c9f-583e-4861-bc3f-b6ff872b0d02">
+          <AttributeID>Account Category Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="94ec4d5c-da02-4056-9c1e-33ba27cb8c37">
+          <AttributeID>Account Type Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d9adabaa-9785-42f9-a332-f131dfc252ed">
+          <AttributeID>Account Status Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="06830d92-09d8-4041-a7ed-7121dff20a21">
+          <AttributeID>Audit Frequency Str</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d37622df-6f45-4d1f-952f-8513abe76a1e">
+          <AttributeID>Officer</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4d421601-8f82-45eb-a31f-0eba37dacc96">
+          <AttributeID>Additional Data</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="03b56f0c-28aa-455f-ba25-9901cb7387b4">
+          <AttributeID>CIS Entity Type Str</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="de05eba0-0087-4a12-b528-a05da7a7f820">
+          <AttributeID>Last Update</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8fd5b4b4-e107-4bb7-85dd-d5f7a2898e62">
+          <AttributeID>Covenant Detail</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7bfe587b-d0dd-42d3-8af9-7e1d9d8ed04d">
+          <AttributeID>Loan Amount</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a6dc9524-12c1-42d8-987b-f28ba3c5e856">
+          <AttributeID>Avg Balance</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6e651a30-6823-453d-8c27-bde4e0b1077b">
+          <AttributeID>Current Balance</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="96c33db2-9c3f-4b10-9094-fe0a84851b31">
+          <AttributeID>Currently Available</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="63a4c397-9f47-480d-a6e2-172e20449de6">
+          <AttributeID>Days Past Due</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="abf2fb12-6ce5-41a1-96d0-6526f6924119">
+          <AttributeID>Exposed Amount</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="54355562-8478-4fee-91bf-43b9b5b35b57">
+          <AttributeID>Days To Maturity</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="52fd206b-fc5f-4635-9ea9-0f9f5295bf73">
+          <AttributeID>Loan Type Code Str</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6f3c42f7-683a-4994-a12d-a9c44f97d9ab">
+          <AttributeID>Secured By Code Str</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="37a56ac7-600c-466c-ac1d-08c87a197d1d">
+          <AttributeID>Loan Date Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="785fdb4e-8c25-4139-afc9-3dbf656c089b">
+          <AttributeID>Loan Date</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="f6359226-ba4d-4d81-a806-feceab59a901">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="00a2f127-5d0a-4587-992b-4931ae23b93e">
+      <ID>Covenant Custom</ID>
+      <Name>Covenant</Name>
+      <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="a4399fc4-9f15-4da3-92d1-27c303e19265">
+          <ID>Loan Amount</ID>
+          <Name>SUM Loan Amount</Name>
+          <Source dwd:design-time-name="58bb0124-df0d-4cfe-bbaf-33f6cd865754">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="58767950-2fd6-48e5-a070-3c9603c7adff">
+              <TableID>CovenantCustom</TableID>
+              <ColumnID>LoanAmount</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f54a84c7-2b1e-4c71-b853-ff9cbe3069fe">
+          <ID>Orig Amt</ID>
+          <Name>SUM Loan Orig Amount</Name>
+          <Source dwd:design-time-name="9237fa1f-48d8-4c23-9d7d-ea8b005a39fc">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="99a96549-96c1-43bc-877f-fe3589427085">
+              <TableID>CovenantCustom</TableID>
+              <ColumnID>OrigAmt</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="589f30ff-99ee-446f-94d3-f02defc8785e">
+          <ID>Covenant Count</ID>
+          <Name>Covenant Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="e3dbe6e0-614e-49b1-a797-4a764cf61ef2">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="e0180f7e-8b5f-4764-869c-a70bc35bc174">
+              <TableID>CovenantCustom</TableID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="63fd7ba1-8ccf-43c7-86f7-856cef40a39b">
+          <ID>Curr Avail</ID>
+          <Name>SUM Loan Currently Available</Name>
+          <Source dwd:design-time-name="af25440b-525b-4abe-a611-b031d5377dec">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="34b0c7f7-c81e-4ae0-8151-f1674a212ddf">
+              <TableID>CovenantCustom</TableID>
+              <ColumnID>CurrAvail</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9e62a6ac-1130-4af4-824d-24710d215ff6">
+          <ID>Cur Balance</ID>
+          <Name>SUM Loan Current Balance</Name>
+          <Source dwd:design-time-name="0ca96181-d1e9-49af-8d51-890b16ee1d41">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1d59b832-bebc-4036-b0c1-99edf5643396">
+              <TableID>CovenantCustom</TableID>
+              <ColumnID>CurBalance</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="cf38b865-c7db-40bb-8703-e20e0a9ab491">
+          <ID>Avg Balance</ID>
+          <Name>SUM Loan Avg Balance</Name>
+          <Source dwd:design-time-name="86737dfc-669e-4406-85a4-14b5e80efb73">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a4c8077f-116e-4ec9-a6f2-a67f761dd268">
+              <TableID>CovenantCustom</TableID>
+              <ColumnID>AvgBalance</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <EstimatedRows>20157</EstimatedRows>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="da3cabc6-8adf-4f59-afa9-23861fa22d79">
+          <CubeDimensionID>Covenant_CovenantCube</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="3ce54943-1862-46ee-b44c-fc92250f5aad">
+              <AttributeID>ID Covenant Track</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d0ee0ed4-501d-4065-97a5-0dd1fa17ae6f">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4699c006-f2d2-4525-b230-d4a57ff83cc3">
+                    <TableID>CovenantCustom</TableID>
+                    <ColumnID>IDCovenantTrack</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+      <AggregationDesigns />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="f72fdb7f-31ca-4dac-a4ca-367a113de979">
+    <DataSourceViewID>Loan Vantage IBS 2921</DataSourceViewID>
+  </Source>
+</Cube>

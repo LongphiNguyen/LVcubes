@@ -1,0 +1,949 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3d94e730-fff9-4696-a6f4-df506488fcd2" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Covenant_CovenantCube</ID>
+  <Name>Covenant_CovenantCube</Name>
+  <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="15" scrolltop="-5000" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="87" x="10028" y="16457" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Covenant_CovenantCube" left="659" top="-30" logicalid="6" controlid="1" masterid="0" hint1="0" hint2="0" width="4551" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000c711000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="CovenantCustom" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Account_CovenantCube" left="6971" top="925" logicalid="7" controlid="2" masterid="0" hint1="0" hint2="0" width="4048" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000d00f00004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="AccountCustom" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Loan_CovenantCube" left="795" top="7400" logicalid="8" controlid="3" masterid="0" hint1="0" hint2="0" width="4976" height="5888" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00007013000000170000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="LoanCustom" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="684" top="4670" logicalid="9" controlid="4" masterid="0" hint1="0" hint2="0" width="1450" height="3230" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[CovenantCustom-LoanCustom]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="1" sourceattachpoint="0" destattachpoint="3" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1083" y="7400" />
+              <point x="1083" y="6200" />
+              <point x="1834" y="6200" />
+              <point x="1834" y="4970" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4910" top="2100" logicalid="10" controlid="5" masterid="0" hint1="0" hint2="0" width="2361" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[CovenantCustom-AccountCustom]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="18" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6971" y="2499" />
+              <point x="5771" y="2499" />
+              <point x="5771" y="2470" />
+              <point x="5210" y="2470" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>15</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5000</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>659</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-30</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>87</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="170">
+            <Shape Id="ID Covenant Track" Expanded="false">
+              <Attributes>
+                <Attribute Id="ID Covenant Track" />
+                <Attribute Id="Status Code Str" />
+                <Attribute Id="Audit Frequency" />
+                <Attribute Id="Covenant Category Code Str" />
+                <Attribute Id="Current Value" />
+                <Attribute Id="Financial Type" />
+                <Attribute Id="Line Of Business Code" />
+                <Attribute Id="Subject To" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="ID Account" Expanded="false">
+              <Attributes>
+                <Attribute Id="ID Account" />
+                <Attribute Id="Account Category Code" />
+                <Attribute Id="Account Number" />
+                <Attribute Id="Account Status Code" />
+                <Attribute Id="Account Type Code" />
+              </Attributes>
+              <Position x="237" y="20" />
+            </Shape>
+            <Shape Id="ID Loan" Expanded="false">
+              <Attributes>
+                <Attribute Id="ID Loan" />
+                <Attribute Id="Loan Number" />
+                <Attribute Id="Officer Code" />
+              </Attributes>
+              <Position x="237" y="68" />
+            </Shape>
+            <Shape Id="Operand" Expanded="false">
+              <Attributes>
+                <Attribute Id="Operand" />
+              </Attributes>
+              <Position x="237" y="116" />
+            </Shape>
+            <Shape Id="Required Value" Expanded="false">
+              <Attributes>
+                <Attribute Id="Required Value" />
+              </Attributes>
+              <Position x="237" y="164" />
+            </Shape>
+            <Shape Id="Covenant Value" Expanded="false">
+              <Attributes>
+                <Attribute Id="Covenant Value" />
+              </Attributes>
+              <Position x="237" y="212" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="1c819e73-644a-43de-a051-04d0c75c3898">
+    <DataSourceViewID>Loan Vantage IBS 2921</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="2b99d0ad-80a7-426e-9b68-0a598fa0906e">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="06a6f85b-b204-4133-a043-c2706da3db68">
+      <ID>ID Covenant Track</ID>
+      <Name>ID Covenant Track</Name>
+      <Usage>Key</Usage>
+      <EstimatedCount>20157</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="51fbe1a1-7342-4d45-bc2a-38b888da0696">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a64c7985-0bad-44f2-a4ea-58d2b6e1290e">
+            <TableID>CovenantCustom</TableID>
+            <ColumnID>IDCovenantTrack</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="b5e7ff36-edb0-4742-be59-e24fa0895790">
+          <AttributeID>Subject To</AttributeID>
+          <Name>Subject To</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7edfa809-5bb1-4da4-a708-7f467879803e">
+          <AttributeID>Covenant Value</AttributeID>
+          <Name>Covenant Value</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a506f836-0cac-4770-a36c-fcf263be3bd3">
+          <AttributeID>Status Code Str</AttributeID>
+          <Name>Account Status</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c3231d51-32b4-4ed1-ada5-6c5caf638c46">
+          <AttributeID>Covenant Category Code Str</AttributeID>
+          <Name>Covenant Category</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f66302d9-f048-48dc-b068-fcfdcaae134c">
+          <AttributeID>Financial Type</AttributeID>
+          <Name>Financial Type</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1dee3d62-a71f-43e8-842a-043dc47b123f">
+          <AttributeID>Line Of Business Code</AttributeID>
+          <Name>Line Of Business Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="71343f92-1d18-4df7-b5b3-bdb184fbbaab">
+          <AttributeID>Current Value</AttributeID>
+          <Name>Current Value</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d15011b6-29ea-4520-959d-829fcad23071">
+          <AttributeID>Required Value</AttributeID>
+          <Name>Required Value</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f17b161b-9725-46ec-99d1-22fa79c8fcb8">
+          <AttributeID>Operand</AttributeID>
+          <Name>Operand</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="86e3021a-2bf7-4585-b425-39c3f42701f4">
+          <AttributeID>ID Loan</AttributeID>
+          <Name>ID Loan</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c2d32888-7d43-4cd2-8104-531d7f80af17">
+          <AttributeID>ID Account</AttributeID>
+          <Name>ID Account</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2c2857e8-c5a7-4eed-8814-a7532d155adf">
+          <AttributeID>Audit Frequency Str</AttributeID>
+          <Name>Audit Frequency Str</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ec1279b5-503a-44c5-bdcb-983ab26bdc30">
+          <AttributeID>Officer</AttributeID>
+          <Name>Officer</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c1d9a6ae-2be3-43d6-8691-231e7de13816">
+          <AttributeID>Additional Data</AttributeID>
+          <Name>Additional Data</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="44b9aabe-b1ca-4ddd-9446-0cf641f2fb69">
+          <AttributeID>CIS Entity Type Str</AttributeID>
+          <Name>CIS Entity Type Str</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5fff288a-63b0-42ac-bd1d-782633eac581">
+          <AttributeID>Last Update</AttributeID>
+          <Name>Last Update</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e881466e-ec5c-47c2-a8e2-3cc0cbe4a230">
+          <AttributeID>Covenant Detail</AttributeID>
+          <Name>Covenant Detail</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d1839c30-ff4f-4c53-9c78-f2d03ac74a63">
+          <AttributeID>Loan Amount</AttributeID>
+          <Name>Loan Amount</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2adb4025-8416-42de-b876-596308afab8b">
+          <AttributeID>Avg Balance</AttributeID>
+          <Name>Avg Balance</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="04329553-60bd-4249-a381-9b35c279972c">
+          <AttributeID>Current Balance</AttributeID>
+          <Name>Current Balance</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="09118cce-39dc-4102-9aa4-ae83d014291c">
+          <AttributeID>Currently Available</AttributeID>
+          <Name>Currently Available</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="191513a6-2d93-446a-b233-2cdedea7d286">
+          <AttributeID>Days Past Due</AttributeID>
+          <Name>Days Past Due</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b781d549-29c0-4e56-9ac0-5b986fe0f371">
+          <AttributeID>Exposed Amount</AttributeID>
+          <Name>Exposed Amount</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c9fd09ee-0e9f-4319-a9a7-cd16d96b17d3">
+          <AttributeID>Days To Maturity</AttributeID>
+          <Name>Days To Maturity</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7ae5d2d2-9897-44e3-85f3-c82d217ed0d4">
+          <AttributeID>Loan Type Code Str</AttributeID>
+          <Name>Loan Type</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c45a256c-dbd7-482d-8d4b-d9abfd9992e4">
+          <AttributeID>Secured By Code Str</AttributeID>
+          <Name>Secured By</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d6db09c3-92c2-479a-b31a-e9b72ecc282c">
+          <AttributeID>Loan Date Year</AttributeID>
+          <Name>Loan Date Year</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="830ae1b1-9a00-40d8-a7a9-0cfd62906ca9">
+          <AttributeID>Loan Date</AttributeID>
+          <Name>Loan Date</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="620d2bd1-4f3a-4ef3-b94b-72ecaf61c2c1">
+      <ID>Subject To</ID>
+      <Name>Subject To</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="933afd0a-dc41-47b9-a17a-5ac5a13a416c">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5db662ff-c313-4127-b2ec-4e49a3aff74e">
+            <TableID>CovenantCustom</TableID>
+            <ColumnID>SubjectTo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d15f244f-0054-40d6-a00b-a4b4595b8ea5">
+      <ID>Covenant Value</ID>
+      <Name>Covenant Value</Name>
+      <EstimatedCount>19</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c69a4d6c-2850-4ff3-ac33-bbeb3815fd72">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bf76c1b4-9395-4396-9a80-f629cb617a14">
+            <TableID>CovenantCustom</TableID>
+            <ColumnID>CovenantValue</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b761f9d4-e273-47be-90d0-1a1d48aea35d">
+      <ID>Status Code Str</ID>
+      <Name>Account Status</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5400a987-29df-444a-b451-5794dadb3baf">
+          <DataType>WChar</DataType>
+          <DataSize>80</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="de7272b2-ffae-4088-9912-b1754fd19d2e">
+            <TableID>CovenantCustom</TableID>
+            <ColumnID>StatusCodeStr</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="13adf590-b72c-41ee-a2df-5b8351db20d5">
+      <ID>Covenant Category Code Str</ID>
+      <Name>Covenant Category</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0c586acc-ec9c-4a00-8c29-fb2653d5dbbf">
+          <DataType>WChar</DataType>
+          <DataSize>80</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1ea80845-ba64-4b35-afea-c2ec1d6b28a9">
+            <TableID>CovenantCustom</TableID>
+            <ColumnID>CovenantCategoryCodeStr</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="21354916-ece9-4acf-a200-30da06fffbe1">
+      <ID>Financial Type</ID>
+      <Name>Financial Type</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="97d5d93d-67ca-4a97-a819-0d5e91239e8c">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="20fa4ca4-28e2-4b44-95ef-44a8f154f837">
+            <TableID>CovenantCustom</TableID>
+            <ColumnID>FinancialType</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b172e918-0081-4e05-8393-2d43febce4fb">
+      <ID>Line Of Business Code</ID>
+      <Name>Line Of Business Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ca5e0269-5ae4-4d42-aaa6-b1acb9a4cdcc">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="038b9ba9-1d7b-4fe0-9113-a87c48a5b2d7">
+            <TableID>CovenantCustom</TableID>
+            <ColumnID>LineOfBusinessCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7f74a11b-a048-4d59-99f7-fbbe1e0ba7fd">
+      <ID>Current Value</ID>
+      <Name>Current Value</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a361df3f-9a4a-42fa-8fa9-4072c005d54b">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="01c7ca90-0ae9-4c00-94d1-69964c72a3e3">
+            <TableID>CovenantCustom</TableID>
+            <ColumnID>CurrentValue</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1afc9d82-cc79-4135-8f92-21b9863d394a">
+      <ID>Required Value</ID>
+      <Name>Required Value</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="34bd9a93-c54f-4bd7-8b83-4cc60a7dfc07">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6547f236-f1cd-4256-983e-397012cc36ec">
+            <TableID>CovenantCustom</TableID>
+            <ColumnID>RequiredValue</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1c462515-3214-4b03-a643-a60a13c95abd">
+      <ID>Operand</ID>
+      <Name>Operand</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5b220fc2-052b-4048-ad96-d9ce8eff48f4">
+          <DataType>WChar</DataType>
+          <DataSize>2</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2752fb04-2a7f-462c-acda-5d37832df1c2">
+            <TableID>CovenantCustom</TableID>
+            <ColumnID>Operand</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="51be8842-bce1-4789-b3c0-c794144f5c18">
+      <ID>ID Loan</ID>
+      <Name>ID Loan</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3fdc53fe-bb27-44fd-aa9b-600ff0d5c489">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4637f819-0ea7-4b30-830a-eb1b6ae6d6ae">
+            <TableID>LoanCustom</TableID>
+            <ColumnID>IDLoan</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="c2727d61-b0f6-4662-b7d8-f779c91b5428">
+          <AttributeID>Officer Code</AttributeID>
+          <Name>Officer Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="11e1830b-ccbd-4ae6-819b-251c09a9e75f">
+          <AttributeID>Loan Number</AttributeID>
+          <Name>Loan Number</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="83e9f774-e68f-4615-b1eb-56c87ef10332">
+      <ID>Officer Code</ID>
+      <Name>Officer Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="88b7cf0b-0c95-4033-967f-23480b2281a8">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="93596985-8d78-46a3-8fb7-99d54628c4af">
+            <TableID>LoanCustom</TableID>
+            <ColumnID>OfficerCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b82eb878-5cfb-4a97-8b7f-f53d995e2a87">
+      <ID>Loan Number</ID>
+      <Name>Loan Number</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b89dd000-91e5-4963-a7e8-080026fc1106">
+          <DataType>WChar</DataType>
+          <DataSize>36</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fce95300-b64f-45fa-b250-945d156f3cca">
+            <TableID>LoanCustom</TableID>
+            <ColumnID>LoanNumber</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="57efa01a-b977-463f-8f0a-2adbc305fa92">
+      <ID>ID Account</ID>
+      <Name>ID Account</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9b5581b8-a89a-4f0c-a455-908c8e02fad5">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9d4ce7d2-e7e5-4497-86d7-563d228f70a5">
+            <TableID>AccountCustom</TableID>
+            <ColumnID>IDAccount</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="aaf12bf6-08af-4eb8-bef9-0e3c20681db4">
+          <AttributeID>Account Number</AttributeID>
+          <Name>Account Number</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1c2b0419-dbce-4dfa-b97c-507581a014f1">
+          <AttributeID>Account Category Code</AttributeID>
+          <Name>Account Category Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ecc21751-f903-4703-8e62-98809a971ef9">
+          <AttributeID>Account Type Code</AttributeID>
+          <Name>Account Type Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d40f79d4-c085-444d-8030-b0ebe6bd5bfb">
+          <AttributeID>Account Status Code</AttributeID>
+          <Name>Account Status Code</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="689f9dfc-339e-4159-8a8a-99aef0ef8b7f">
+      <ID>Account Number</ID>
+      <Name>Account Number</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="77d26f31-088e-4a53-af43-ca6ebbc25f58">
+          <DataType>WChar</DataType>
+          <DataSize>36</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ce92cf0f-507b-41dd-9ea8-c9745b29d07f">
+            <TableID>AccountCustom</TableID>
+            <ColumnID>AccountNumber</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5f0e379f-d2f7-412e-80b1-20d7e4423501">
+      <ID>Account Category Code</ID>
+      <Name>Account Category Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="434e2eb1-a8d0-4de6-8b28-e773a0091a01">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fcf7402c-dd37-4113-8b94-5b939fdec8d5">
+            <TableID>AccountCustom</TableID>
+            <ColumnID>AccountCategoryCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="53b72caa-5c90-426f-98a3-496686e78c59">
+      <ID>Account Type Code</ID>
+      <Name>Account Type Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6f6e85fa-30f8-4807-9ae8-cefcefcd071e">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b80f3a3d-4392-4d5a-acfb-5c87893d9dc9">
+            <TableID>AccountCustom</TableID>
+            <ColumnID>AccountTypeCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ee5fb027-2e38-4242-976e-397e0c22b50b">
+      <ID>Account Status Code</ID>
+      <Name>Account Status Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7d8cf4b7-2e99-48c5-b6b0-7d5837cf4a46">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b3e28577-da10-4e5f-9d43-1745b0d1acf4">
+            <TableID>AccountCustom</TableID>
+            <ColumnID>AccountStatusCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="50f19238-856d-4347-a56f-bc95fd0b9a7f">
+      <ID>Audit Frequency Str</ID>
+      <Name>Audit Frequency Str</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7e3c111c-94de-4c92-ba07-f4d1369b2eba">
+          <DataType>WChar</DataType>
+          <DataSize>17</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ea1839d9-6ce9-42a2-8fca-476780c06e88">
+            <TableID>CovenantCustom</TableID>
+            <ColumnID>AuditFrequencyStr</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="072f4485-74ca-4404-a667-d0281dea9112">
+      <ID>Officer</ID>
+      <Name>Officer</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2a8175d1-3499-4830-af1a-41185f925d97">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b76fd8d7-fb7e-453c-a74f-5eed0f84ea21">
+            <TableID>LoanCustom</TableID>
+            <ColumnID>OfficerCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="70266f73-5956-471b-ae0c-45f6838116c7">
+        <DataType>WChar</DataType>
+        <DataSize>80</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="2de02453-5f76-4d80-bee3-713eea2f0493">
+          <TableID>LoanCustom</TableID>
+          <ColumnID>Officer</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="bd18eea3-24c6-43d9-89c1-ceff85576389">
+      <ID>Additional Data</ID>
+      <Name>Additional Data</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8a1265c1-02fa-49c2-b40a-1245d9dd6c73">
+          <DataType>WChar</DataType>
+          <DataSize>1024</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="773b0948-5016-4a17-994e-bfe9f75b9fff">
+            <TableID>CovenantCustom</TableID>
+            <ColumnID>AdditionalData</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5487d406-0e40-4aa7-8559-d3da73f0a486">
+      <ID>CIS Entity Type Str</ID>
+      <Name>CIS Entity Type Str</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2f8e7b25-2330-4a04-bbac-11bd649da31a">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="99fe3c9c-b760-40c4-8601-830ff2f4ec78">
+            <TableID>CovenantCustom</TableID>
+            <ColumnID>CISEntityTypeStr</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4b287c3b-adaa-4adf-aa96-e317834e7bb6">
+      <ID>Last Update</ID>
+      <Name>Last Update</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="02c5ac3a-b654-48dd-a952-e5ac5e763ae5">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a644cb6c-0676-4b85-8c20-8c0081bc2927">
+            <TableID>CovenantCustom</TableID>
+            <ColumnID>LastUpdate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ea781d1d-a066-4d77-b039-941a28d08980">
+      <ID>Covenant Detail</ID>
+      <Name>Covenant Detail</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2746ab39-8b7a-419f-bc82-e6764d1096ce">
+          <DataType>WChar</DataType>
+          <DataSize>1024</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b6af8721-3595-4559-88b5-9c807bc65725">
+            <TableID>CovenantCustom</TableID>
+            <ColumnID>CovenantDetail</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a226d557-c903-4bef-bd49-f5d7423ae006">
+      <ID>Loan Amount</ID>
+      <Name>Loan Amount</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bd572485-009b-4b68-a31b-c548a1a0da5b">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="140ee6af-4fd6-4277-8737-4403586088a4">
+            <TableID>LoanCustom</TableID>
+            <ColumnID>LoanAmount</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="dea2b6c4-a2cd-4504-9bc4-04fb6a142d64">
+      <ID>Avg Balance</ID>
+      <Name>Avg Balance</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2b6dc570-72e1-45fb-8ba2-6b584cbe3894">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d6d5a12a-f3da-45ba-97cd-77ddd598bef9">
+            <TableID>LoanCustom</TableID>
+            <ColumnID>AvgBalance</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="17fa98b2-5851-44f9-91fa-e19baf480bec">
+      <ID>Current Balance</ID>
+      <Name>Current Balance</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="42e112d6-cd96-48fa-922e-929b544434e1">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1ea821c2-c029-4068-ab48-7b2e6beddab6">
+            <TableID>LoanCustom</TableID>
+            <ColumnID>CurrentBalance</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="843945d2-52f6-4e1b-9078-8cd2784b7bc9">
+      <ID>Currently Available</ID>
+      <Name>Currently Available</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="56fd4197-e11c-4ccc-ba14-c251a5ad93d4">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="889f298e-42c2-4533-8437-859377a0df37">
+            <TableID>LoanCustom</TableID>
+            <ColumnID>CurrentlyAvailable</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d0d35a90-8787-4790-b6eb-7aecf894d34a">
+      <ID>Days Past Due</ID>
+      <Name>Days Past Due</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ca754f6c-be1d-4acc-9797-ac988c937cf4">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d229af89-b830-48a0-820d-9a81e12e9278">
+            <TableID>LoanCustom</TableID>
+            <ColumnID>DaysPastDue</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d528baef-5d6e-434e-be72-19a530fcdd4f">
+      <ID>Exposed Amount</ID>
+      <Name>Exposed Amount</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1adc227e-e680-4fd3-abe5-d58dd3b8130f">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="afaa6461-89cc-4da6-a468-4c518f5b8240">
+            <TableID>LoanCustom</TableID>
+            <ColumnID>ExposedAmount</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3fbc88a0-8837-4a9c-a12e-664e927cf090">
+      <ID>Days To Maturity</ID>
+      <Name>Days To Maturity</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e75cf546-2db0-4c21-aafc-262934d03387">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b82bd8e8-c9f5-4f7c-9916-e2201e89980e">
+            <TableID>LoanCustom</TableID>
+            <ColumnID>DaysToMaturity</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7b269156-a68e-4bc9-bc47-9ace0119f0fe">
+      <ID>Loan Type Code Str</ID>
+      <Name>Loan Type</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="35a91465-ac8f-4500-afcb-0826e1c47920">
+          <DataType>WChar</DataType>
+          <DataSize>80</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0700e330-b888-497e-879d-4f0a79acf58d">
+            <TableID>LoanCustom</TableID>
+            <ColumnID>LoanTypeCodeStr</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5ec7ba79-eb21-484f-8774-acd5d1bd19d6">
+      <ID>Secured By Code Str</ID>
+      <Name>Secured By</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e946f288-000c-4359-ab64-a8b0687dffe5">
+          <DataType>WChar</DataType>
+          <DataSize>80</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b5e2ab72-b150-4ca3-85a1-82ef6fcb3b4b">
+            <TableID>LoanCustom</TableID>
+            <ColumnID>SecuredByCodeStr</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fa0fec77-9285-460a-b1a8-ea416742bd5c">
+      <ID>Loan Date Year</ID>
+      <Name>Loan Date Year</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="51bd33b6-9e22-45da-89ac-9bb5c71652c2">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ba2ddd33-b2a5-4582-a3f3-2ff42df710c5">
+            <TableID>LoanCustom</TableID>
+            <ColumnID>LoanDateYear</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <DefaultMember></DefaultMember>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6eb1d014-76f3-4267-b069-43f6c200f71c">
+      <ID>Loan Date</ID>
+      <Name>Loan Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e4ff0c1c-5af5-4403-8172-8a328dfbee1f">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bfde32bd-b107-416c-9d1e-49e5821d0c1a">
+            <TableID>LoanCustom</TableID>
+            <ColumnID>LoanDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="d948e595-927d-4403-933e-8659d4e90b02">
+      <ID>Hierarchy</ID>
+      <Name>Requirement</Name>
+      <Levels>
+        <Level dwd:design-time-name="60b8c2d5-e724-4b87-8065-6669a692d48e">
+          <ID>Covenant Value</ID>
+          <Name>Covenant Value</Name>
+          <SourceAttributeID>Covenant Value</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="054e2d57-1e55-4b51-8eff-4a1fe41a0a92">
+          <ID>Operand</ID>
+          <Name>Operand</Name>
+          <SourceAttributeID>Operand</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="e06f03b3-fccc-4d37-8f65-bdf23f6627e3">
+          <ID>Required Value</ID>
+          <Name>Required Value</Name>
+          <SourceAttributeID>Required Value</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

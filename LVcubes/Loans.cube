@@ -1,0 +1,281 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c7fe8b18-faad-4cc2-bc92-99d5ab26a2be" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Loans</ID>
+  <Name>Loans</Name>
+  <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="8" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-11396" scrolltop="-2306" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="28760" y="16457" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Account" left="20" top="0" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="4048" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000d00f00009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="Account" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Loan" left="245" top="6395" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="3598" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00000e0e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="Loan" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1645" top="3496" logicalid="6" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Loan-Account]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="7" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2044" y="3995" />
+              <point x="2044" y="6395" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-11396</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2306</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="1dd8b277-1665-47c3-9d28-7623a7314af5">
+      <ID>Loan</ID>
+      <Name>Loan</Name>
+      <DimensionID>Loan</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="2e5a24cc-fa71-4dc7-8a36-ba71557b2fa1">
+          <AttributeID>ID Loan</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="34876307-f657-4dc2-bb8b-29858fc8094f">
+          <AttributeID>Officer Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="12afe325-bdc9-4477-8c04-44532cd76414">
+          <AttributeID>Officer</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7f712dd3-4734-46e3-8546-30833597f92e">
+          <AttributeID>Avg Balance</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3e8e7182-99cd-4bd8-9ef5-cf1abfc312b2">
+          <AttributeID>Loan Amount</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c5678313-40e4-49be-8d91-107353f5fe2d">
+          <AttributeID>Loan Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0a1c7dd8-4511-4a54-932f-c36a67681556">
+          <AttributeID>Loan Date Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6b1feef8-565d-4753-97ec-547065af4b3c">
+          <AttributeID>Current Balance</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d0ca42ff-b2ad-4c21-87cc-a6dd99dbc73b">
+          <AttributeID>Currently Available</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0424a093-4fb7-485b-bfd7-db158384efa1">
+          <AttributeID>Days Past Due</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c1da45ee-8cda-49df-82a2-7855835b9280">
+          <AttributeID>Exposed Amount</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f7308640-54d8-4b07-b6fe-bf3e6f913541">
+          <AttributeID>Days To Maturity</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="15ab5292-38d1-4029-8a3d-b9b443da37c9">
+          <AttributeID>Loan Type Code Str</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="17d4a982-2ecf-4ff4-ae57-ba278f382996">
+          <AttributeID>Secured By Code Str</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b8f96b9f-21d1-4e21-a847-23083df5a693">
+          <AttributeID>Loan Number</AttributeID>
+          <AggregationUsage>Full</AggregationUsage>
+        </Attribute>
+        <Attribute dwd:design-time-name="7b92d06f-e24a-40a5-8879-8154814998bd">
+          <AttributeID>Account Status Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="07e4d453-23e2-4517-8592-7dbd5f6b8cc8">
+          <AttributeID>Account Desc</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d6694519-92ef-4518-9e30-63da82cda9b8">
+          <AttributeID>Short Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="91404645-46f5-4961-851e-bcdaa74faa81">
+          <AttributeID>Account Type Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="eef3c07d-f911-44bd-9b57-9b51889f012d">
+          <AttributeID>Account Category Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d94b2faa-26f7-4393-bdfa-e4e5f104c00a">
+          <AttributeID>ID Account</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="43433561-538a-4410-8a9f-73d4fb87effc">
+          <AttributeID>Loan Date Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="06cb3b94-40f9-40d3-bcc8-558b865b7d9b">
+          <AttributeID>Loan Date Month</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
+        <Attribute dwd:design-time-name="124a0c1b-0968-44b0-8075-3639daf4a675">
+          <AttributeID>Loan Date Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="18d44aff-2b06-4e11-b9f1-251d268aeca6">
+          <AttributeID>Account Number</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="9d6fce0d-6c75-4e7d-9f50-6ffdac192a69">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="b74216a6-b74f-45af-8115-d09bff6e8775">
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <DefaultMeasure>[Measures].[Loan Count]</DefaultMeasure>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="aa8f77a4-e905-4ffb-af5d-c17db6953624">
+      <ID>Loan</ID>
+      <Name>Loan</Name>
+      <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="7d432c5e-1831-4c25-b3e4-a6848dc94a7b">
+          <ID>Avg Balance</ID>
+          <Name>Avg Balance</Name>
+          <Source dwd:design-time-name="c7298bda-87bf-4801-a30b-370e3df517cc">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5c4c5d27-5f52-4736-8f36-3bb64b05c9f9">
+              <TableID>Loan</TableID>
+              <ColumnID>AvgBalance</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="0bfc6855-f041-407a-9a69-bbdc3b71e8bb">
+          <ID>Loan Amount</ID>
+          <Name>Loan Amount</Name>
+          <Source dwd:design-time-name="c384d270-75b7-43ae-93b7-c5a9dcebc61c">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e322f5b1-8187-4a65-a388-8695a456042c">
+              <TableID>Loan</TableID>
+              <ColumnID>LoanAmount</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="7bd2f877-4198-41c7-9859-845952345b11">
+          <ID>Current Balance</ID>
+          <Name>Current Balance</Name>
+          <Source dwd:design-time-name="959c9433-5e20-410e-b56e-12f7ff82e288">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6592dc5c-7625-4ffc-a8aa-36b08d78c0a3">
+              <TableID>Loan</TableID>
+              <ColumnID>CurrentBalance</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="83390eb6-6542-4990-80a2-c05ea1d53c73">
+          <ID>Loan Count</ID>
+          <Name>Loan Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="b76d35b6-2d81-4266-bf66-a6f41a418c1f">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="667c328a-91b6-40e5-9ca4-8a652bbac97d">
+              <TableID>Loan</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <EstimatedRows>259773</EstimatedRows>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="604b4f2f-b6fc-4d6b-ae00-5ee27235677e">
+          <CubeDimensionID>Loan</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="8f254217-9d22-4617-9681-485929fdc043">
+              <AttributeID>ID Loan</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="db459559-c2d3-43d5-915e-6ea149b8d200">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0aadb968-e27b-4126-a7d9-889bb6cd999f">
+                    <TableID>Loan</TableID>
+                    <ColumnID>IDLoan</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+      <AggregationDesigns />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="674ba72b-f599-48a8-add7-65d0ff610e1c">
+    <DataSourceViewID>Loan Vantage IBS 2921</DataSourceViewID>
+  </Source>
+</Cube>

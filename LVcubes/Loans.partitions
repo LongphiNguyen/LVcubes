@@ -1,0 +1,332 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="0fed2625-17b0-4e58-b5c8-8494b2f97a8c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Loans</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Loan</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="968bc6b8-21cd-431a-b423-0ea37e692fd9">
+          <ID>Loan</ID>
+          <Name>Loan</Name>
+          <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="29fde148-05b5-4209-a694-22d8ee4e87d7">
+            <DataSourceViewID>Loan Vantage IBS 2921</DataSourceViewID>
+            <TableID>Loan</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <EstimatedRows>259773</EstimatedRows>
+          <AggregationDesignID>AggregationDesign 1</AggregationDesignID>
+        </Partition>
+      </Partitions>
+      <AggregationDesigns>
+        <AggregationDesign>
+          <ID>AggregationDesign 1</ID>
+          <Name>AggregationDesign 1</Name>
+          <CreatedTimestamp>2016-06-30T20:25:34.013333Z</CreatedTimestamp>
+          <LastSchemaUpdate>2016-06-30T20:25:34.013333Z</LastSchemaUpdate>
+          <EstimatedRows>259773</EstimatedRows>
+          <Dimensions>
+            <Dimension>
+              <CubeDimensionID>Loan</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Loan</AttributeID>
+                  <EstimatedCount>259773</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Officer Code</AttributeID>
+                  <EstimatedCount>262</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Officer</AttributeID>
+                  <EstimatedCount>263</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Avg Balance</AttributeID>
+                  <EstimatedCount>4</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Loan Amount</AttributeID>
+                  <EstimatedCount>15180</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Loan Date</AttributeID>
+                  <EstimatedCount>6308</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Loan Date Year</AttributeID>
+                  <EstimatedCount>44</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Current Balance</AttributeID>
+                  <EstimatedCount>15606</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Currently Available</AttributeID>
+                  <EstimatedCount>5152</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Days Past Due</AttributeID>
+                  <EstimatedCount>6459</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Exposed Amount</AttributeID>
+                  <EstimatedCount>15088</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Days To Maturity</AttributeID>
+                  <EstimatedCount>7458</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Loan Type Code Str</AttributeID>
+                  <EstimatedCount>234</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Secured By Code Str</AttributeID>
+                  <EstimatedCount>4</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Loan Number</AttributeID>
+                  <EstimatedCount>87275</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Account Status Code</AttributeID>
+                  <EstimatedCount>55</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Account Desc</AttributeID>
+                  <EstimatedCount>1179</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Short Name</AttributeID>
+                  <EstimatedCount>316919</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+          <Aggregations>
+            <Aggregation>
+              <ID>Aggregation 0</ID>
+              <Name>Aggregation 0</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Loan</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Loan Date</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Exposed Amount</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Days To Maturity</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Account Status Code</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Account Desc</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 1</ID>
+              <Name>Aggregation 1</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Loan</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Officer Code</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Days Past Due</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Days To Maturity</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Loan Number</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Account Status Code</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 2</ID>
+              <Name>Aggregation 2</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Loan</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Loan Amount</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Loan Number</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 3</ID>
+              <Name>Aggregation 3</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Loan</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Loan Date</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Days Past Due</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Days To Maturity</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Loan Number</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Account Status Code</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 4</ID>
+              <Name>Aggregation 4</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Loan</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Avg Balance</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Current Balance</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Loan Number</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Account Status Code</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Account Desc</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 5</ID>
+              <Name>Aggregation 5</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Loan</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Officer Code</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Account Status Code</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 6</ID>
+              <Name>Aggregation 6</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Loan</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Loan Date</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Days Past Due</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Days To Maturity</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Loan Number</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Account Status Code</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 7</ID>
+              <Name>Aggregation 7</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Loan</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Loan Date</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Days Past Due</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Days To Maturity</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Loan Number</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 8</ID>
+              <Name>Aggregation 8</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Loan</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Loan Date</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 9</ID>
+              <Name>Aggregation 9</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Loan</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Officer Code</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+          </Aggregations>
+        </AggregationDesign>
+      </AggregationDesigns>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>
