@@ -27,6 +27,16 @@
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
+    <ProjectItem>
+      <Name>DepositAccount.cube</Name>
+      <FullPath>DepositAccount.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>DepositAccount.partitions</Name>
+          <FullPath>DepositAccount.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>
@@ -40,6 +50,14 @@
     <ProjectItem>
       <Name>Account.dim</Name>
       <FullPath>Account.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Party.dim</Name>
+      <FullPath>Party.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Deposit Account.dim</Name>
+      <FullPath>Deposit Account.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Collateral.dim</Name>

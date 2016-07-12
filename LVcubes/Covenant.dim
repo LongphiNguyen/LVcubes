@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2719" scrolltop="-5728" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10451" y="13309" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2719" scrolltop="-5728" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10451" y="17066" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -79,10 +79,10 @@
                 <Attribute Id="Covenant Category Code Str" />
                 <Attribute Id="Covenant Detail" />
                 <Attribute Id="Covenant Value" />
-                <Attribute Id="Current Value" />
                 <Attribute Id="Financial Type" />
+                <Attribute Id="In Compliance Flag" />
                 <Attribute Id="Last Update" />
-                <Attribute Id="Line Of Business Code" />
+                <Attribute Id="Line Of Business Code Str" />
                 <Attribute Id="Number Of Days After" />
                 <Attribute Id="Status Code Str" />
                 <Attribute Id="Status Code" />
@@ -90,15 +90,15 @@
               </Attributes>
               <Position x="20" y="20" />
             </Shape>
-            <Shape Id="Officer Code Str" Expanded="false">
-              <Attributes>
-                <Attribute Id="Officer Code Str" />
-              </Attributes>
-              <Position x="227" y="20" />
-            </Shape>
             <Shape Id="Officer Code" Expanded="false">
               <Attributes>
                 <Attribute Id="Officer Code" />
+              </Attributes>
+              <Position x="227" y="20" />
+            </Shape>
+            <Shape Id="Officer Code Str" Expanded="false">
+              <Attributes>
+                <Attribute Id="Officer Code Str" />
               </Attributes>
               <Position x="435" y="20" />
             </Shape>
@@ -114,6 +114,12 @@
               </Attributes>
               <Position x="227" y="116" />
             </Shape>
+            <Shape Id="Current Value" Expanded="false">
+              <Attributes>
+                <Attribute Id="Current Value" />
+              </Attributes>
+              <Position x="227" y="164" />
+            </Shape>
           </Shapes>
         </DiagramLayout>
       </Value>
@@ -127,7 +133,6 @@
   <UnknownMember>Visible</UnknownMember>
   <ErrorConfiguration dwd:design-time-name="390e4300-909d-44f6-be56-32a4200eb655">
     <KeyNotFound>ReportAndStop</KeyNotFound>
-    <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
@@ -172,10 +177,6 @@
           <AttributeID>Financial Type</AttributeID>
           <Name>Financial Type</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="9e427471-6f62-4d6f-9148-afdf6f25da1d">
-          <AttributeID>Line Of Business Code</AttributeID>
-          <Name>Line Of Business Code</Name>
-        </AttributeRelationship>
         <AttributeRelationship dwd:design-time-name="e5f088c2-f6d6-4714-a659-32ce87b66e1e">
           <AttributeID>Current Value</AttributeID>
           <Name>Current Value</Name>
@@ -212,9 +213,17 @@
           <AttributeID>Status Code</AttributeID>
           <Name>Status Code</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="45a144dc-7e99-47f0-b683-5ea4ddae071f">
-          <AttributeID>Officer Code Str</AttributeID>
-          <Name>Officer Name</Name>
+        <AttributeRelationship dwd:design-time-name="1693b5f9-9eae-4689-ad85-4c5dc50b10be">
+          <AttributeID>Officer Code</AttributeID>
+          <Name>Officer Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8fbe3c35-f003-4364-8947-bb6d91aa5d38">
+          <AttributeID>In Compliance Flag</AttributeID>
+          <Name>In Compliance Flag</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b7b0884e-9507-40f8-898f-1222bd887a2a">
+          <AttributeID>Line Of Business Code Str</AttributeID>
+          <Name>Line Of Business</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
@@ -227,6 +236,7 @@
       <KeyColumns>
         <KeyColumn dwd:design-time-name="a1d68e1a-662d-4535-bee3-be0a72b7d086">
           <DataType>Boolean</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
           <Source xsi:type="ColumnBinding" dwd:design-time-name="bc4fd929-7492-424d-bc3d-770f54fa3e63">
             <TableID>Covenant</TableID>
             <ColumnID>SubjectTo</ColumnID>
@@ -243,6 +253,7 @@
       <KeyColumns>
         <KeyColumn dwd:design-time-name="f6217a02-056c-42c6-b4ce-7b3f95eec1e7">
           <DataType>Double</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
           <Source xsi:type="ColumnBinding" dwd:design-time-name="ffd0d782-22ba-4a11-ba92-5183031620fe">
             <TableID>Covenant</TableID>
             <ColumnID>CovenantValue</ColumnID>
@@ -250,6 +261,7 @@
         </KeyColumn>
       </KeyColumns>
       <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -322,24 +334,6 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="05e4d4da-388b-47ee-a91a-22023cff68b8">
-      <ID>Line Of Business Code</ID>
-      <Name>Line Of Business</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="663afe30-6954-47f4-9fc4-c1c844deb106">
-          <DataType>WChar</DataType>
-          <DataSize>10</DataSize>
-          <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="7a465743-2a0d-4625-826f-cab572fc6f31">
-            <TableID>Covenant</TableID>
-            <ColumnID>LineOfBusinessCode</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <OrderBy>Key</OrderBy>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
     <Attribute dwd:design-time-name="79398db0-18d8-44d9-b5f1-2ee35153a771">
       <ID>Current Value</ID>
       <Name>Current Value</Name>
@@ -401,8 +395,10 @@
       <KeyColumns>
         <KeyColumn dwd:design-time-name="c412d20f-12db-4a35-868e-a8e60feaebf2">
           <DataType>WChar</DataType>
-          <DataSize>1024</DataSize>
+          <DataSize>4000</DataSize>
           <NullProcessing>UnknownMember</NullProcessing>
+          <Trimming>LeftRight</Trimming>
+          <InvalidXmlCharacters>Replace</InvalidXmlCharacters>
           <Source xsi:type="ColumnBinding" dwd:design-time-name="29b70626-fce1-4715-bc1e-5beed768260e">
             <TableID>Covenant</TableID>
             <ColumnID>CovenantDetail</ColumnID>
@@ -419,6 +415,7 @@
       <KeyColumns>
         <KeyColumn dwd:design-time-name="7e896cba-3763-44e0-a8e8-bc6c7c0bb238">
           <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
           <Source xsi:type="ColumnBinding" dwd:design-time-name="4094a30c-8293-4b9c-93ff-23b3a1612461">
             <TableID>Covenant</TableID>
             <ColumnID>NumberOfDaysAfter</ColumnID>
@@ -435,7 +432,7 @@
       <KeyColumns>
         <KeyColumn dwd:design-time-name="47119b9f-038f-409f-8786-a449423cd647">
           <DataType>WChar</DataType>
-          <DataSize>1024</DataSize>
+          <DataSize>2000</DataSize>
           <NullProcessing>UnknownMember</NullProcessing>
           <Trimming>LeftRight</Trimming>
           <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
@@ -498,6 +495,13 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="1c149de8-a151-42af-8962-7a9fc1bb82a6">
+          <AttributeID>Officer Code Str</AttributeID>
+          <Cardinality>One</Cardinality>
+          <Name>Officer Name</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -532,12 +536,6 @@
           <ColumnID>OfficerCodeStr</ColumnID>
         </Source>
       </NameColumn>
-      <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="ff07f13d-d671-4fcf-8740-1e2927de9846">
-          <AttributeID>Officer Code</AttributeID>
-          <Name>Officer Code</Name>
-        </AttributeRelationship>
-      </AttributeRelationships>
       <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -559,12 +557,50 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
+    <Attribute dwd:design-time-name="1458944f-fd3e-42b4-8cc9-358b4fc87272">
+      <ID>In Compliance Flag</ID>
+      <Name>In Compliance Flag</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0e15bf2f-34c6-4508-8203-ae5a3176de7c">
+          <DataType>Boolean</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bb3cd89f-a81d-465e-8e87-987a48e5b9e8">
+            <TableID>Covenant</TableID>
+            <ColumnID>InComplianceFlag</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cb84ccac-349f-4867-89aa-d417c35415e4">
+      <ID>Line Of Business Code Str</ID>
+      <Name>Line Of Business</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="60176c12-4239-4075-b685-dfddcfa20c9a">
+          <DataType>WChar</DataType>
+          <DataSize>80</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="26150895-f2d4-47dd-88a1-061ec977d3cd">
+            <TableID>Covenant</TableID>
+            <ColumnID>LineOfBusinessCodeStr</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
   </Attributes>
   <Hierarchies>
     <Hierarchy dwd:design-time-name="dd9d6b78-fba1-4b66-883a-63229437d991">
       <ID>Hierarchy 1</ID>
       <Name>Covenant Requirement</Name>
       <Levels>
+        <Level dwd:design-time-name="32dd2528-ff7f-47d2-9ab5-46bbec4e184c">
+          <ID>Covenant Value</ID>
+          <Name>Covenant Value</Name>
+          <SourceAttributeID>Covenant Value</SourceAttributeID>
+        </Level>
         <Level dwd:design-time-name="511f70d1-1903-43f6-91ea-7fd4b0735171">
           <ID>Operand</ID>
           <Name>Operand</Name>
@@ -581,15 +617,15 @@
       <ID>Hierarchy</ID>
       <Name>Officer</Name>
       <Levels>
-        <Level dwd:design-time-name="5419d2f7-fb36-4710-b520-184d87c60fff">
-          <ID>Officer Code</ID>
-          <Name>Officer Code</Name>
-          <SourceAttributeID>Officer Code</SourceAttributeID>
-        </Level>
         <Level dwd:design-time-name="51fb2ef3-3c3e-4c69-a562-5563e1d4a793">
           <ID>Officer Name</ID>
           <Name>Officer Name</Name>
           <SourceAttributeID>Officer Code Str</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="93ec856f-243c-4f17-8af9-77a4127626d0">
+          <ID>Officer Code</ID>
+          <Name>Officer Code</Name>
+          <SourceAttributeID>Officer Code</SourceAttributeID>
         </Level>
       </Levels>
     </Hierarchy>

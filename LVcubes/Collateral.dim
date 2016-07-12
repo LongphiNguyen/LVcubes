@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="669c9bf8-bc9e-491e-963d-6e1791e84542" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="48aebb42-3851-4b2d-bf9e-22bedce1c73c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Collateral</ID>
   <Name>Collateral</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3327" scrolltop="-6654" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10028" y="16457" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3313" scrolltop="-6033" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10451" y="17066" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -19,9 +19,9 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Collateral" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3334" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Collateral" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3784" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
-              <ddsxmlobjectstreaminitwrapper binary="000c0000060d00004d0c0000" />
+              <ddsxmlobjectstreaminitwrapper binary="000c0000c80e000088130000" />
             </control>
             <layoutobject>
               <ddsxmlobj>
@@ -47,11 +47,11 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-3327</Value>
+      <Value>-3313</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-6654</Value>
+      <Value>-6033</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -68,56 +68,92 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="a69c6613-980c-4386-a60a-2d8508e05f42">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="7ba157b6-1723-4fae-af3b-5de35935ea7e">
     <DataSourceViewID>Loan Vantage IBS 2921</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="79e0103f-626d-4270-8dc7-2f9992dcaeca">
+  <ErrorConfiguration dwd:design-time-name="c965c9e4-0817-4f5b-88ae-1f8be70437d8">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="1d237804-3abe-4b42-a0de-f6e23c5d6118">
+    <Attribute dwd:design-time-name="69159538-3d4b-4d59-a658-7e2187bf4876">
       <ID>ID Collateral</ID>
       <Name>ID Collateral</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="09bbe9b5-b0a6-4c15-ace4-e6347a4841a5">
+        <KeyColumn dwd:design-time-name="b0c08635-0b96-419f-96bc-549e42373b31">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="55b306ea-d125-4463-928b-e4efb76a719a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2072f8b0-7d7e-4e21-a2d6-64a3b2a42689">
             <TableID>Collateral</TableID>
             <ColumnID>IDCollateral</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="f2640503-a325-4ef0-b0ec-eb1cae0a1de8">
+        <AttributeRelationship dwd:design-time-name="0237b2b1-9858-41cf-ab06-6cd347f5be3d">
           <AttributeID>Description</AttributeID>
           <Name>Description</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="3327a114-153e-4e88-b221-052815bc03d0">
-          <AttributeID>Category Str</AttributeID>
-          <Name>Category Str</Name>
+        <AttributeRelationship dwd:design-time-name="d02788fb-4d2f-4e96-8328-d1f45c470f5b">
+          <AttributeID>Market Value</AttributeID>
+          <Name>Market Value</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="0bd6c8b4-f1f3-4005-a056-72871ea0ea56">
+        <AttributeRelationship dwd:design-time-name="88b1f3cd-cead-4ecf-8758-bb55e8ff13d0">
+          <AttributeID>Advance Rate</AttributeID>
+          <Name>Advance Rate</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5828cb8d-b9d8-4a9f-8c75-138ebbb69e2a">
+          <AttributeID>Location</AttributeID>
+          <Name>Location</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="23d2bb10-97c5-46f9-a981-b304d64972d3">
+          <AttributeID>Valuation Date</AttributeID>
+          <Name>Valuation Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="dacbc3a9-341f-407c-b6ce-4f548923afb3">
           <AttributeID>Collateral Type Str</AttributeID>
           <Name>Collateral Type Str</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="336d496e-49a5-49f9-846c-74a9b786191c">
+          <AttributeID>Amount Available</AttributeID>
+          <Name>Amount Available</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f3c69db9-820e-432c-9b54-63abbf1d1cb8">
+          <AttributeID>Real Estate Flag</AttributeID>
+          <Name>Real Estate Flag</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f41713fb-faf7-4f53-abf2-5a9c3259eee1">
+          <AttributeID>Owner Occupied Flag</AttributeID>
+          <Name>Owner Occupied Flag</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d8eea054-6671-4d8c-8217-793f0a332350">
+          <AttributeID>Unit Type</AttributeID>
+          <Name>Unit Type</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a6ac9961-88f8-4c34-84cc-59c7d2029064">
+          <AttributeID>Num Units</AttributeID>
+          <Name>Num Units</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="cb89ce5f-b750-40f1-a80f-9ecaa9e99fcf">
+          <AttributeID>Orig Price</AttributeID>
+          <Name>Orig Price</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="f2eac19d-b024-4e33-be2f-4e6be9463365">
+    <Attribute dwd:design-time-name="d6ed08a9-c9e8-43e6-aa69-d4add5e8587b">
       <ID>Description</ID>
       <Name>Description</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="226e4d81-1691-4d7f-973b-7327ebbcac3f">
+        <KeyColumn dwd:design-time-name="b429f9ce-e6fa-4242-b6df-35487127b97c">
           <DataType>WChar</DataType>
           <DataSize>500</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="ce5c691f-fac7-4020-bea7-534ea4736925">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2f9a9736-250d-45a3-b672-9f70985274a2">
             <TableID>Collateral</TableID>
             <ColumnID>Description</ColumnID>
           </Source>
@@ -127,68 +163,187 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="4fe56f7b-a7d2-48d8-b8fc-b52afe926aaa">
-      <ID>Category Str</ID>
-      <Name>Category Str</Name>
+    <Attribute dwd:design-time-name="16d2c80b-5a31-4a0a-9e1f-a56dfcf085d6">
+      <ID>Market Value</ID>
+      <Name>Market Value</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="1d4b0c01-9251-485b-8461-1e5181554783">
-          <DataType>WChar</DataType>
-          <DataSize>10</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="efe3b5dd-beec-4377-8ee4-8e9f235eae83">
+        <KeyColumn dwd:design-time-name="2aae7744-9de9-4fb0-b5d3-9c7bc42ea7ad">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b952f9de-1c49-4931-86f6-3949a7c56980">
             <TableID>Collateral</TableID>
-            <ColumnID>CategoryCode</ColumnID>
-          </Source>
-        </KeyColumn>
-        <KeyColumn dwd:design-time-name="ec718eb9-59db-4529-8b90-94dbf0c1a890">
-          <DataType>WChar</DataType>
-          <DataSize>80</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="7c5f546f-5495-48cd-a0b5-edd05671af01">
-            <TableID>Collateral</TableID>
-            <ColumnID>CategoryStr</ColumnID>
+            <ColumnID>MarketValue</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="2f4dba4d-0e30-42df-9334-7548b57289d9">
-        <DataType>WChar</DataType>
-        <DataSize>80</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="0ccb3b02-bb7b-4bf2-b212-33c132c1a054">
-          <TableID>Collateral</TableID>
-          <ColumnID>CategoryStr</ColumnID>
-        </Source>
-      </NameColumn>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="89fc5547-7f92-44f9-816b-84fae77fd70d">
+    <Attribute dwd:design-time-name="1bb316cc-ef90-4729-b263-6d94a35a1284">
+      <ID>Advance Rate</ID>
+      <Name>Advance Rate</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6a33bcf8-5c14-480a-a622-d9b754a0e881">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5806b6ba-2276-4895-8dad-9a24d78a6af8">
+            <TableID>Collateral</TableID>
+            <ColumnID>AdvanceRate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="42f1a2fd-3227-4c94-a167-1d9be9e8831d">
+      <ID>Location</ID>
+      <Name>Location</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bd07d61f-b072-4dea-bcb3-84baeaa1d435">
+          <DataType>WChar</DataType>
+          <DataSize>250</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4da078e9-906e-4b88-85cc-c682eab767cc">
+            <TableID>Collateral</TableID>
+            <ColumnID>Location</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="166ab2ec-9c6e-4d87-8bfc-da550ce12ca3">
+      <ID>Valuation Date</ID>
+      <Name>Valuation Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f235531f-0db1-4fa0-837a-36dc12fc3fc9">
+          <DataType>Date</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fe0ea7bb-d838-487a-8a67-4426028d274d">
+            <TableID>Collateral</TableID>
+            <ColumnID>ValuationDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0108e362-b473-4c83-bfaa-df64707bafd5">
       <ID>Collateral Type Str</ID>
       <Name>Collateral Type Str</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="f0dc15bb-4bd6-4549-b813-5b4c57e09033">
-          <DataType>WChar</DataType>
-          <DataSize>15</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="5bf06b8e-4bf0-4d12-b370-11a08f14844c">
-            <TableID>Collateral</TableID>
-            <ColumnID>CollateralTypeCode</ColumnID>
-          </Source>
-        </KeyColumn>
-        <KeyColumn dwd:design-time-name="a02ff808-d3aa-487e-9254-505c80842765">
+        <KeyColumn dwd:design-time-name="1090dbcc-ce30-4a37-9490-008134031e88">
           <DataType>WChar</DataType>
           <DataSize>80</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="78c658ea-0931-4947-b27d-24f67fa3f962">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d99a50d8-b3b3-440b-8fb3-4339c740ea90">
             <TableID>Collateral</TableID>
             <ColumnID>CollateralTypeStr</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="d2018239-67af-4800-8ef2-505ba6f1f4e5">
-        <DataType>WChar</DataType>
-        <DataSize>80</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="231d74cb-fd4b-42f2-820c-b8bb243e58c7">
-          <TableID>Collateral</TableID>
-          <ColumnID>CollateralTypeStr</ColumnID>
-        </Source>
-      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b7dd9ef1-45ed-494a-a168-0c8590fe16b9">
+      <ID>Amount Available</ID>
+      <Name>Amount Available</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="242b161c-e980-40ed-98fc-218a73c8b0d7">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e3b06d25-246d-41fc-82f4-09a51efbd5dd">
+            <TableID>Collateral</TableID>
+            <ColumnID>AmountAvailable</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f9fd47ef-2b59-46f8-8a7a-b62c3f6af1bd">
+      <ID>Real Estate Flag</ID>
+      <Name>Real Estate Flag</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4906fdbf-be1e-4baf-b3a1-a990ecc6a753">
+          <DataType>Boolean</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7cef2ab5-8360-4715-9a40-d6c2b30b4890">
+            <TableID>Collateral</TableID>
+            <ColumnID>RealEstateFlag</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8d3c99b8-1ab1-42f9-90dd-933c7147a0ed">
+      <ID>Owner Occupied Flag</ID>
+      <Name>Owner Occupied Flag</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2f6644e4-a769-48e4-bc62-9de723a74fda">
+          <DataType>Boolean</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e6b87b61-139f-4182-9bef-4ff14db3fa7e">
+            <TableID>Collateral</TableID>
+            <ColumnID>OwnerOccupiedFlag</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="19d2c5fb-af0d-4e5c-80ec-2f82a1b4bb01">
+      <ID>Unit Type</ID>
+      <Name>Unit Type</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6fcc69dd-d613-456e-8772-53f87b848e22">
+          <DataType>WChar</DataType>
+          <DataSize>3</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="91126aaf-0309-4182-bb7e-487aa2942599">
+            <TableID>Collateral</TableID>
+            <ColumnID>UnitType</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="faccdda8-3814-4e31-9e27-e6facdb27519">
+      <ID>Num Units</ID>
+      <Name>Num Units</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a82aa247-fb83-4b9d-ba6c-d52e3230579f">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0cc241ba-1d5a-4e0a-9bbb-579a31376c7f">
+            <TableID>Collateral</TableID>
+            <ColumnID>NumUnits</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6cbb6c57-c618-46cf-8209-8cd79c0f709b">
+      <ID>Orig Price</ID>
+      <Name>Orig Price</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d5ea8e2f-ee25-4523-b0e0-c3a02edfaa7b">
+          <DataType>Double</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8d3c33a4-7aaa-417f-82d6-2870e10623ce">
+            <TableID>Collateral</TableID>
+            <ColumnID>OrigPrice</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>

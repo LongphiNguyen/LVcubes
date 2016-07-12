@@ -46,28 +46,12 @@
                   <EstimatedCount>263</EstimatedCount>
                 </Attribute>
                 <Attribute>
-                  <AttributeID>Avg Balance</AttributeID>
-                  <EstimatedCount>4</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Loan Amount</AttributeID>
-                  <EstimatedCount>15180</EstimatedCount>
-                </Attribute>
-                <Attribute>
                   <AttributeID>Loan Date</AttributeID>
                   <EstimatedCount>6308</EstimatedCount>
                 </Attribute>
                 <Attribute>
                   <AttributeID>Loan Date Year</AttributeID>
                   <EstimatedCount>44</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Current Balance</AttributeID>
-                  <EstimatedCount>15606</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Currently Available</AttributeID>
-                  <EstimatedCount>5152</EstimatedCount>
                 </Attribute>
                 <Attribute>
                   <AttributeID>Days Past Due</AttributeID>
@@ -169,9 +153,6 @@
                   <CubeDimensionID>Loan</CubeDimensionID>
                   <Attributes>
                     <Attribute>
-                      <AttributeID>Loan Amount</AttributeID>
-                    </Attribute>
-                    <Attribute>
                       <AttributeID>Loan Number</AttributeID>
                     </Attribute>
                   </Attributes>
@@ -211,12 +192,6 @@
                 <Dimension>
                   <CubeDimensionID>Loan</CubeDimensionID>
                   <Attributes>
-                    <Attribute>
-                      <AttributeID>Avg Balance</AttributeID>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Current Balance</AttributeID>
-                    </Attribute>
                     <Attribute>
                       <AttributeID>Loan Number</AttributeID>
                     </Attribute>

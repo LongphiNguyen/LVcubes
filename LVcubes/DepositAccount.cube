@@ -1,0 +1,229 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e8c85e07-178a-4207-8182-6990b57657fd" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DepositAccount</ID>
+  <Name>DepositAccount</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-12111" scrolltop="-6033" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="28760" y="17066" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DepositAccount" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4498" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00009211000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="DepositAccount" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-12111</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6033</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="f9a136da-49b0-40fb-ad73-677a782c969c">
+      <ID>Deposit Account</ID>
+      <Name>Deposit Account</Name>
+      <DimensionID>Deposit Account</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="2f75026a-a76d-4b04-91da-942f1d853caa">
+          <AttributeID>ID Account</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="560c4973-9d42-42d4-a274-742717297e98">
+          <AttributeID>Account Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cc225b70-7b15-4cd9-85ff-5ac8249b80a3">
+          <AttributeID>Account Type</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dd48e799-e9c9-4929-b15f-5a7f14946e24">
+          <AttributeID>Account Category</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="81b01aec-129b-4af8-a45b-8680e86e2ced">
+          <AttributeID>Account Status Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="226657b5-46f7-4af2-b0dc-646d68fabc6b">
+          <AttributeID>Opened Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cbf8674d-5b40-4d56-8b37-1da69ff3b4de">
+          <AttributeID>Interest Rate</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="00b90100-0232-4efd-b1e5-836c9d5d7503">
+          <AttributeID>Maturity Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7e5af6d1-8426-484f-b3d1-0212064260a2">
+          <AttributeID>Interest Type Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8a65d53c-5c93-4f14-8ece-78db0befe32c">
+          <AttributeID>As Of Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8aec989c-cc40-488f-8ba2-bbd5d6cac0db">
+          <AttributeID>Sub Account Type Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1a674415-7959-419e-8d4e-d6f6bb461aca">
+          <AttributeID>Overdraft Num</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6d9dce84-1e8f-4e08-af8d-e3a390f78dfb">
+          <AttributeID>NSF Item12 Month Total</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="43742fc6-009f-4128-b5d9-7f0b11979536">
+          <AttributeID>Items Overdrawn12 Months</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="58d6d99b-9c84-4d17-ab9a-c6f662d5b2f6">
+          <AttributeID>Avg Bal Prior Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e8507108-e6d5-4367-b0a8-16d99f9550c8">
+          <AttributeID>Opened Date Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b3ae0775-db51-40c9-a171-f89048ec5ee9">
+          <AttributeID>Opened Date Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6615362e-7fb6-4404-8682-53bb8b3e83ca">
+          <AttributeID>Opened Date Month</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
+        <Attribute dwd:design-time-name="b9d6794b-92cf-42c4-bade-a22cf8620d25">
+          <AttributeID>Opened Date Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="07936064-7a51-4d0a-b9ab-361f3993b93f">
+          <AttributeID>Maturity Date Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="579ccafb-d668-4b57-b1fa-a25079fc1660">
+          <AttributeID>Maturity Date Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2ada9580-b486-4735-ba11-0b3f41377ea5">
+          <AttributeID>Maturity Date Month</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
+        <Attribute dwd:design-time-name="826aa6e0-ff83-4e8d-9c00-fc0933931b97">
+          <AttributeID>Maturity Date Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="98676c84-b746-4f62-abae-9e4ccabff99a">
+          <AttributeID>As Of Date Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cde51c23-9307-4e01-b6b9-749a04d294f5">
+          <AttributeID>As Of Date Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="51cf5f62-ccd6-4eb9-8e58-5d569d958219">
+          <AttributeID>As Of Date Month</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
+        <Attribute dwd:design-time-name="7bdd16de-2a22-4891-9714-6f15f4ccbb6e">
+          <AttributeID>As Of Date Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e22a21a9-1f6c-4890-82ac-9cab25abc482">
+          <AttributeID>Account Type Code</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="6fd4202c-aa3f-4b01-8fcf-93b69d845035">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="0542b9ba-9587-4897-be96-469cb39e660c">
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="0bc05814-e484-483e-9d6d-6260e07206e3">
+          <HierarchyID>Hierarchy 2</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="46a82e91-c0d3-44a2-9c22-2d0c50482aee">
+      <ID>Deposit Account</ID>
+      <Name>Deposit Account</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="bec19bfe-917b-4d00-911b-6caf605ee5a0">
+          <ID>Deposit Account Count</ID>
+          <Name>Deposit Account Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="0308785c-81fa-402b-8d13-a0a0fe0275a7">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="8044a77f-9123-45ff-b16b-d3777781f6d4">
+              <TableID>DepositAccount</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="b8574e0a-0c4b-48c3-a974-baabb862bf1e">
+          <CubeDimensionID>Deposit Account</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="35feafaa-bd2f-4f3d-8a0d-7b1c9985e0fa">
+              <AttributeID>ID Account</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5d3792d4-f770-4106-b9ba-1d3c1cd71834">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f0fc57d6-0918-4f4d-a6c4-2ae1d514ce6f">
+                    <TableID>DepositAccount</TableID>
+                    <ColumnID>IDAccount</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="1499372e-9d9d-4b4f-9573-06cd5fef0370">
+    <DataSourceViewID>Loan Vantage IBS 2921</DataSourceViewID>
+  </Source>
+</Cube>

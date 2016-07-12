@@ -112,23 +112,11 @@
         <Attribute dwd:design-time-name="12afe325-bdc9-4477-8c04-44532cd76414">
           <AttributeID>Officer</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="7f712dd3-4734-46e3-8546-30833597f92e">
-          <AttributeID>Avg Balance</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="3e8e7182-99cd-4bd8-9ef5-cf1abfc312b2">
-          <AttributeID>Loan Amount</AttributeID>
-        </Attribute>
         <Attribute dwd:design-time-name="c5678313-40e4-49be-8d91-107353f5fe2d">
           <AttributeID>Loan Date</AttributeID>
         </Attribute>
         <Attribute dwd:design-time-name="0a1c7dd8-4511-4a54-932f-c36a67681556">
           <AttributeID>Loan Date Year</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="6b1feef8-565d-4753-97ec-547065af4b3c">
-          <AttributeID>Current Balance</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="d0ca42ff-b2ad-4c21-87cc-a6dd99dbc73b">
-          <AttributeID>Currently Available</AttributeID>
         </Attribute>
         <Attribute dwd:design-time-name="0424a093-4fb7-485b-bfd7-db158384efa1">
           <AttributeID>Days Past Due</AttributeID>
@@ -177,8 +165,112 @@
         <Attribute dwd:design-time-name="124a0c1b-0968-44b0-8075-3639daf4a675">
           <AttributeID>Loan Date Month Name</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="18d44aff-2b06-4e11-b9f1-251d268aeca6">
+        <Attribute dwd:design-time-name="a6220be0-3462-48f3-89cc-babf3c872430">
+          <AttributeID>Late Days30</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6b846c4d-b53f-4edf-ab08-57d1a60c3d85">
+          <AttributeID>Late Days60</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6d5ef8d5-1067-4d1c-a6fa-a249fe15a3fa">
+          <AttributeID>Late Days90</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="de39635b-d9e7-48ab-856b-cb9f50d2bdd7">
+          <AttributeID>Payment Frequency Code Str</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="39031fae-bdf0-4ce0-9de3-280b93d58a56">
+          <AttributeID>Interest Rate</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="514a636e-7971-4253-9869-ab658a1ba307">
+          <AttributeID>NAICS Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0c8b318c-ec20-4765-b9b1-aeda2936215f">
+          <AttributeID>Naics Code Str</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="669f991e-9286-452c-9128-748ae50cbe48">
           <AttributeID>Account Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5e4b0250-eb24-40c2-9ca9-bcaf56cb21b2">
+          <AttributeID>Fixed Var Code Str</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="62d62795-e4d8-4dbf-a390-f1e1678b421d">
+          <AttributeID>Orig Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5d1f1b96-2d07-4749-9943-eb0811e6901d">
+          <AttributeID>Orig Date Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="637e1065-45ff-4e5a-abbb-046d31011943">
+          <AttributeID>Orig Date Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ea57f3fe-f4e0-4fa7-8e6e-e40e0e10b2e0">
+          <AttributeID>Orig Date Month</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
+        <Attribute dwd:design-time-name="58e4f177-a7ca-4618-a799-853e1f059e31">
+          <AttributeID>Orig Date Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b178c54f-2337-40a4-8ac3-b05e1bd127b8">
+          <AttributeID>Last Payment Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d2fc6923-611b-4deb-bcb1-7d240ef12651">
+          <AttributeID>Last Payment Date Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="59e54ec0-cdaa-4fba-aa3a-1d4ee7976fbe">
+          <AttributeID>Last Payment Date Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6f816a9e-87f9-49a7-bbca-dfe7fbb53afd">
+          <AttributeID>Last Payment Date Month</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
+        <Attribute dwd:design-time-name="54d538d7-d18b-4dbd-bfbf-e347ec597e76">
+          <AttributeID>Last Payment Date Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a6a80155-0222-4493-bf28-70bfb1d11e2b">
+          <AttributeID>Maturity Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e90103a5-cc92-475d-bca0-c00fd0084cf7">
+          <AttributeID>Maturity Date Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="922e218c-0ee2-4b5d-9625-2d7e3da2d105">
+          <AttributeID>Maturity Date Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6f681dc1-673d-4886-9abf-72b310b3ad16">
+          <AttributeID>Maturity Date Month</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
+        <Attribute dwd:design-time-name="4e9eed0f-8316-4396-9b2f-138d8d13e6d3">
+          <AttributeID>Maturity Date Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="89aea1e6-cfe7-4ae2-b842-234e138b9a5b">
+          <AttributeID>Next Due Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="aa4b1be6-520b-46df-8f13-d97ebba74e21">
+          <AttributeID>Next Due Date Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c2b01d01-c789-42ae-80e1-d9df4490896b">
+          <AttributeID>Next Due Date Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3cdcd784-1f81-4797-83d8-d5c25ae2ef88">
+          <AttributeID>Next Due Date Month</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
+        <Attribute dwd:design-time-name="4b788a39-e090-4cea-9a23-fd9b3d125e3e">
+          <AttributeID>Next Due Date Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5aed040f-e87e-432c-a464-eff401cd0f72">
+          <AttributeID>Account Opened Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2fca9068-eace-468c-a6ca-2c9050aa1f06">
+          <AttributeID>Account Opened Date Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="da700b3f-b893-4cd8-8e4c-6809fbbaeb20">
+          <AttributeID>Account Opened Date Month</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
+        <Attribute dwd:design-time-name="244b8b48-d24e-4190-ab73-0449d9408d4b">
+          <AttributeID>Account Opened Date Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cd4abf37-535b-4ecd-a1ad-08bedd95f292">
+          <AttributeID>Account Opened Date Year</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
@@ -187,6 +279,24 @@
         </Hierarchy>
         <Hierarchy dwd:design-time-name="b74216a6-b74f-45af-8115-d09bff6e8775">
           <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="ea8779be-a683-411d-b1b4-f1055beeae55">
+          <HierarchyID>Hierarchy 2</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="b0457e75-de3b-47f1-a369-fb66b3bd31ac">
+          <HierarchyID>Hierarchy 3</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="40a5cb40-216d-40c6-84d8-2ed370216ae2">
+          <HierarchyID>Hierarchy 4</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="b80f5b6e-edc7-4046-bda2-cb65e567ca8c">
+          <HierarchyID>Hierarchy 5</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="e2efeb4d-0720-4a1e-b29a-1592858da3f1">
+          <HierarchyID>Hierarchy 6</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="14c482a0-3958-4682-b89b-4e6d45213564">
+          <HierarchyID>Hierarchy 7</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>

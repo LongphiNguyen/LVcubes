@@ -1,0 +1,1000 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="0d1ef1ce-7105-4b15-8d3d-2e93fe7fa680" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Deposit Account</ID>
+  <Name>Deposit Account</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2956" scrolltop="-6033" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10451" y="17066" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DepositAccount" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4498" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00009211000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="DepositAccount" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2956</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6033</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="189">
+            <Shape Id="ID Account" Expanded="false">
+              <Attributes>
+                <Attribute Id="ID Account" />
+                <Attribute Id="Account Category" />
+                <Attribute Id="Account Number" />
+                <Attribute Id="Account Status Code" />
+                <Attribute Id="Account Type" />
+                <Attribute Id="Account Type Code" />
+                <Attribute Id="Avg Bal Prior Year" />
+                <Attribute Id="Avg Balance YTD" />
+                <Attribute Id="Call Code" />
+                <Attribute Id="Interest Rate" />
+                <Attribute Id="Interest Type Code" />
+                <Attribute Id="Is Foreign" />
+                <Attribute Id="Items Overdrawn12 Months" />
+                <Attribute Id="Monthly Payment" />
+                <Attribute Id="NSF Item12 Month Total" />
+                <Attribute Id="Overdraft Num" />
+                <Attribute Id="Participation Flag" />
+                <Attribute Id="Sub Account Type Code" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="As Of Date" Expanded="false">
+              <Attributes>
+                <Attribute Id="As Of Date" />
+              </Attributes>
+              <Position x="261" y="20" />
+            </Shape>
+            <Shape Id="As Of Date Month Name" Expanded="true">
+              <Attributes>
+                <Attribute Id="As Of Date Month Name" />
+                <Attribute Id="As Of Date Month" />
+              </Attributes>
+              <Position x="502" y="20" />
+            </Shape>
+            <Shape Id="As Of Date Quarter" Expanded="false">
+              <Attributes>
+                <Attribute Id="As Of Date Quarter" />
+              </Attributes>
+              <Position x="743" y="20" />
+            </Shape>
+            <Shape Id="As Of Date Year" Expanded="false">
+              <Attributes>
+                <Attribute Id="As Of Date Year" />
+              </Attributes>
+              <Position x="985" y="20" />
+            </Shape>
+            <Shape Id="Maturity Date" Expanded="false">
+              <Attributes>
+                <Attribute Id="Maturity Date" />
+              </Attributes>
+              <Position x="261" y="68" />
+            </Shape>
+            <Shape Id="Maturity Date Month Name" Expanded="true">
+              <Attributes>
+                <Attribute Id="Maturity Date Month Name" />
+                <Attribute Id="Maturity Date Month" />
+              </Attributes>
+              <Position x="502" y="68" />
+            </Shape>
+            <Shape Id="Maturity Date Quarter" Expanded="false">
+              <Attributes>
+                <Attribute Id="Maturity Date Quarter" />
+              </Attributes>
+              <Position x="743" y="68" />
+            </Shape>
+            <Shape Id="Maturity Date Year" Expanded="false">
+              <Attributes>
+                <Attribute Id="Maturity Date Year" />
+              </Attributes>
+              <Position x="985" y="68" />
+            </Shape>
+            <Shape Id="Opened Date" Expanded="false">
+              <Attributes>
+                <Attribute Id="Opened Date" />
+              </Attributes>
+              <Position x="261" y="140" />
+            </Shape>
+            <Shape Id="Opened Date Month Name" Expanded="true">
+              <Attributes>
+                <Attribute Id="Opened Date Month Name" />
+                <Attribute Id="Opened Date Month" />
+              </Attributes>
+              <Position x="502" y="140" />
+            </Shape>
+            <Shape Id="Opened Date Quarter" Expanded="false">
+              <Attributes>
+                <Attribute Id="Opened Date Quarter" />
+              </Attributes>
+              <Position x="743" y="140" />
+            </Shape>
+            <Shape Id="Opened Date Year" Expanded="false">
+              <Attributes>
+                <Attribute Id="Opened Date Year" />
+              </Attributes>
+              <Position x="985" y="140" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="629b8478-a637-4ce6-be05-6b2fbf4a3e91">
+    <DataSourceViewID>Loan Vantage IBS 2921</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="e9180883-6749-43ce-b862-d44985cc5e48">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="a6438939-d5d3-40dc-a27e-80f5a75fa7f9">
+      <ID>ID Account</ID>
+      <Name>ID Account</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4f6095e7-273d-4c51-a410-00b9c197ac4d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d53034f5-0c9c-4a1a-bcab-2cf7a971198b">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>IDAccount</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="93f2936b-0b88-4942-8dd7-d45ba6552134">
+          <AttributeID>Account Number</AttributeID>
+          <Name>Account Number</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c80e8e0f-b544-47d1-8251-7221391f8084">
+          <AttributeID>Account Type</AttributeID>
+          <Name>Account Type</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="835027d3-abe5-44fb-bbe6-1a4bb093df70">
+          <AttributeID>Account Category</AttributeID>
+          <Name>Account Category</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="352ddb03-9edd-4ead-aaba-e56cdaabc9ea">
+          <AttributeID>Account Status Code</AttributeID>
+          <Name>Account Status Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c4e723a3-82cb-4659-adbb-d55f6df13d82">
+          <AttributeID>Opened Date</AttributeID>
+          <Name>Opened Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5ab3578b-80c1-4bdc-8b00-d3dd33e2912d">
+          <AttributeID>Interest Rate</AttributeID>
+          <Name>Interest Rate</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="05e5cba8-ecdb-4ca0-86cc-8bb1e842cc73">
+          <AttributeID>Maturity Date</AttributeID>
+          <Name>Maturity Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7a2d7cbf-0358-43a1-887b-71f099280843">
+          <AttributeID>Interest Type Code</AttributeID>
+          <Name>Interest Type Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="36b1665a-86d6-4723-8f95-455a7e811933">
+          <AttributeID>As Of Date</AttributeID>
+          <Name>As Of Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3bcafcc9-2072-408c-941f-d04b325407b5">
+          <AttributeID>Sub Account Type Code</AttributeID>
+          <Name>Sub Account Type Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="fbad25c1-c1f3-4566-b7a3-176081c64db9">
+          <AttributeID>Overdraft Num</AttributeID>
+          <Name>Overdraft Num</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3528e16f-9284-4e4e-a5f6-e48bb5a7e1f3">
+          <AttributeID>NSF Item12 Month Total</AttributeID>
+          <Name>NSF Item12 Month Total</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f4ca186e-8435-4f01-95b4-4c930d6ac70c">
+          <AttributeID>Items Overdrawn12 Months</AttributeID>
+          <Name>Items Overdrawn12 Months</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3af000a2-f4c1-4ca3-b39f-50ce492672ce">
+          <AttributeID>Avg Bal Prior Year</AttributeID>
+          <Name>Avg Bal Prior Year</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4e5fcf63-fb52-4158-8b00-036b6959e996">
+          <AttributeID>Account Type Code</AttributeID>
+          <Name>Account Type Code</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4c727ed3-b063-4380-a9a2-9a0853e9626d">
+      <ID>Account Number</ID>
+      <Name>Account Number</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c60f69d7-390e-4363-925c-075873fefa75">
+          <DataType>WChar</DataType>
+          <DataSize>36</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="908e0b38-631c-4141-a317-1e29d20e5aa3">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>AccountNumber</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="40b60560-989e-4b06-bcc4-3f8230a1b33c">
+      <ID>Account Type</ID>
+      <Name>Account Type</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="33dc59eb-a5da-44f7-ba9d-db4d16ceb1bb">
+          <DataType>WChar</DataType>
+          <DataSize>80</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="032fad1c-0a85-467c-8135-03df8e901ab6">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>AccountType</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a20b66a3-2fcf-47a2-aac8-d5eb85afc165">
+      <ID>Account Category</ID>
+      <Name>Account Category</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="647f6232-464e-4744-b1eb-d0ad99c44365">
+          <DataType>WChar</DataType>
+          <DataSize>80</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f9ad9a49-72c6-4493-8175-44a03dd8e909">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>AccountCategory</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="765478c9-76b2-461e-8fe6-efffe2244b05">
+      <ID>Account Status Code</ID>
+      <Name>Account Status Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="09d58576-8f78-4b6a-9597-076aff203cfa">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="84d29ac2-19fd-4bf6-8e53-f63e2df970e1">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>AccountStatusCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="221ea1f9-6c20-4752-956e-7181126be351">
+      <ID>Opened Date</ID>
+      <Name>Opened Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8d62a8c5-5516-4b0c-b929-c33bd1b1bd86">
+          <DataType>Date</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a5f34105-188a-4ef7-b0db-c89bc6a5cee7">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>OpenedDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="42f69aa8-2f7f-4f07-ac9b-38516f827900">
+          <AttributeID>Opened Date Month Name</AttributeID>
+          <Name>Opened Date Month Name</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b643fea3-6d13-4437-8aa1-47cdb1f1bee5">
+      <ID>Interest Rate</ID>
+      <Name>Interest Rate</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7bc01994-369e-4e58-a1b9-d8c9e4201815">
+          <DataType>Double</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e17ee8d1-21ce-4a26-ac9b-9aaee8f663f8">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>InterestRate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="97733214-ffed-47b3-8434-c5e08367caab">
+      <ID>Maturity Date</ID>
+      <Name>Maturity Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fc95ceba-3028-42e7-be52-80c9a626974c">
+          <DataType>Date</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d680cc3e-022a-4920-a3f5-c43997d3d4de">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>MaturityDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="d3541e20-a174-4ada-b077-ebd498c0a0b9">
+          <AttributeID>Maturity Date Month Name</AttributeID>
+          <Name>Maturity Date Month Name</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="06bf3093-6e27-439f-b4dc-e5bc30bf067a">
+      <ID>Interest Type Code</ID>
+      <Name>Interest Type Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7f2859ae-0719-4994-b2b1-805e7dd9019f">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ad809b46-cbdc-4c12-bb5c-39492e94d932">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>InterestTypeCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="66420388-79bf-480c-b921-6a66cadf4b9c">
+      <ID>As Of Date</ID>
+      <Name>As Of Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="69fb8d07-c205-4763-98e0-6d477b887594">
+          <DataType>Date</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7e368b05-4edc-46d9-a521-9be5faaa92f8">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>AsOfDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="85a3ca6d-9451-47cb-9725-64350d604696">
+          <AttributeID>As Of Date Month Name</AttributeID>
+          <Name>As Of Date Month Name</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7ba579f0-e7be-4d2f-889b-2dc8b1a812f8">
+      <ID>Sub Account Type Code</ID>
+      <Name>Sub Account Type Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6bcc2cf5-eefb-472b-b0e4-a79faaa1e243">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d9d06eed-52bf-488e-afa4-40f38a705d2c">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>SubAccountTypeCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="41514629-29ba-49ef-ac11-330efb5578cc">
+      <ID>Overdraft Num</ID>
+      <Name>Overdraft Num</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="71abb645-ed95-47dd-8771-2d01b4b1121b">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="02b4e4cb-d2b0-40e5-abb0-e9e548724a38">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>OverdraftNum</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8bdb161d-f446-46df-9f05-373d40663a36">
+      <ID>NSF Item12 Month Total</ID>
+      <Name>NSF Item12 Month Total</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="82c2600a-bde5-4268-a759-9e79a2bcea8e">
+          <DataType>Double</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="066c7792-8603-4d2a-8c72-621db90ca69b">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>NSFItem12MonthTotal</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fff85a00-f15c-459a-8f84-a1958cbc5f9d">
+      <ID>Items Overdrawn12 Months</ID>
+      <Name>Items Overdrawn12 Months</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c53a3f18-53ea-4ca6-879d-bd059757caa4">
+          <DataType>Double</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="799b62d8-dac3-4284-87d9-7c18512adbe2">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>ItemsOverdrawn12Months</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a7a0cde3-215e-46a3-b6ff-bbdf2bc9ec8b">
+      <ID>Avg Bal Prior Year</ID>
+      <Name>Avg Bal Prior Year</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0e68ab99-ec2b-490f-99b7-eb74bb09ead6">
+          <DataType>Double</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ed1bd329-cb24-45f7-82d4-1a6042f9898d">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>AvgBalPriorYear</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="191f5cb5-9174-4bb4-b388-1ae83162ffc3">
+      <ID>Opened Date Year</ID>
+      <Name>Opened Date Year</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5ef3ee38-1e5d-464f-8ac9-648e0ae02c83">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8b4ecb91-4b76-40e0-adcd-7e7844280277">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>OpenedDateYear</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1c577f7a-5cf0-4c4b-907c-3e82c63353d6">
+      <ID>Opened Date Quarter</ID>
+      <Name>Opened Date Quarter</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="84bd6548-d4ea-4e46-9ea1-d03d008a9d1f">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="aa2f3e9d-68e7-4a2c-bd2a-c867e0b51cdb">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>OpenedDateYear</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="164a0ccb-2336-40a6-a9dd-7447130fd521">
+          <DataType>WChar</DataType>
+          <DataSize>3</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="67f7400f-3c93-4932-b044-f4f83d4bb62f">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>OpenedDateQuarter</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="0aeb4460-028b-427b-8f40-3f4a68fd588d">
+        <DataType>WChar</DataType>
+        <DataSize>3</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="9c9a54c4-31ae-48cc-972e-190a5b5685a6">
+          <TableID>DepositAccount</TableID>
+          <ColumnID>OpenedDateQuarter</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="1604d44d-bfeb-4015-b936-5ba4bb894626">
+          <AttributeID>Opened Date Year</AttributeID>
+          <Name>Opened Date Year</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c33ca30e-ed7a-4773-b2b8-6913f80e5784">
+      <ID>Opened Date Month</ID>
+      <Name>Opened Date Month</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d7e1bb4c-7400-4652-8e53-2655e0f3380c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b7c872a3-63ef-4336-81da-41abc9edb092">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>OpenedDateMonth</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyOrdered>false</AttributeHierarchyOrdered>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <AttributeHierarchyOptimizedState>NotOptimized</AttributeHierarchyOptimizedState>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d9473c62-542e-414c-9411-7749405bd5f2">
+      <ID>Opened Date Month Name</ID>
+      <Name>Opened Date Month Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8d189628-b872-41ab-9c07-8d841cc6bef3">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="78f196a8-01fc-495f-b902-ea7ca3dd6178">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>OpenedDateYear</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="5262568c-6ed6-4e19-92f5-157c3c428ed2">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f724c068-7e69-4af0-a233-b0e1e8894d92">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>OpenedDateMonthName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="f6d4b060-ab1b-4b1a-a4fb-7c27b46649d2">
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="44a82234-dcab-4f23-b082-4ae40d0b3782">
+          <TableID>DepositAccount</TableID>
+          <ColumnID>OpenedDateMonthName</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="d06844cc-aadc-4c54-82a2-13b725889564">
+          <AttributeID>Opened Date Month</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Opened Date Month</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c6e06e12-d2ba-4b32-b244-3658d0c18548">
+          <AttributeID>Opened Date Quarter</AttributeID>
+          <Name>Opened Date Quarter</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeKey</OrderBy>
+      <OrderByAttributeID>Opened Date Month</OrderByAttributeID>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0989902a-4f37-48d9-abfa-5e46f1b737bc">
+      <ID>Maturity Date Year</ID>
+      <Name>Maturity Date Year</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f1cdc225-9d32-4cfb-a0ff-5c41d72ca0ac">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8c2e50e4-f0e9-4812-8e5b-904eb0ca0715">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>MaturityDateYear</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="74d31009-ffd0-4f0e-9c85-c522380a4c01">
+      <ID>Maturity Date Quarter</ID>
+      <Name>Maturity Date Quarter</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fb2619b4-3e1f-4948-8560-225f18b6858d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="636fbe62-0666-45b0-a763-f5e56d1a8263">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>MaturityDateYear</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="5f2cd456-8026-4061-80c5-1c8ce717f9f9">
+          <DataType>WChar</DataType>
+          <DataSize>3</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2a32798d-07dd-487a-af99-76efc035eabf">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>MaturityDateQuarter</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="bc13e7cd-a9e4-4007-8bd9-e717a57cc67c">
+        <DataType>WChar</DataType>
+        <DataSize>3</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="9872b79c-e4ec-4ee7-9edf-9205bb9ff669">
+          <TableID>DepositAccount</TableID>
+          <ColumnID>MaturityDateQuarter</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="6a2e0bca-3e34-40ea-81eb-540fa8af30a8">
+          <AttributeID>Maturity Date Year</AttributeID>
+          <Name>Maturity Date Year</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="209d5cc6-23ab-44eb-814c-f880a471e0aa">
+      <ID>Maturity Date Month</ID>
+      <Name>Maturity Date Month</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d713e592-7a76-4b09-8130-b46154b06931">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="126326fe-ba75-4b98-a43d-d8079d39c8e2">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>MaturityDateMonth</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyOrdered>false</AttributeHierarchyOrdered>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <AttributeHierarchyOptimizedState>NotOptimized</AttributeHierarchyOptimizedState>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ea063e5e-4a6b-4933-91f6-b58142addf42">
+      <ID>Maturity Date Month Name</ID>
+      <Name>Maturity Date Month Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1b67a4c7-cbd7-4450-98dc-f501d1a382e9">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8a756b49-d13e-4d2c-8975-589eb8afda74">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>MaturityDateYear</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="e4f99adf-1256-41ea-8509-ab4a5912279f">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6131ba51-c1cf-4bd5-bc8f-6f64c00f9584">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>MaturityDateMonthName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="c04d11e1-63b5-4a33-b1a1-924730a799bd">
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="4de4e588-ff3a-48a2-86d8-085c744b7a13">
+          <TableID>DepositAccount</TableID>
+          <ColumnID>MaturityDateMonthName</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="234e9f0a-22f5-4c7c-8d1f-1321192065cc">
+          <AttributeID>Maturity Date Month</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Maturity Date Month</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f0bcdb13-5726-4f6e-b100-a055a2499b4d">
+          <AttributeID>Maturity Date Quarter</AttributeID>
+          <Name>Maturity Date Quarter</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeKey</OrderBy>
+      <OrderByAttributeID>Maturity Date Month</OrderByAttributeID>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="61eadc01-fd1f-4c86-a781-e7ea61eb5bd1">
+      <ID>As Of Date Year</ID>
+      <Name>As Of Date Year</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8982dde2-9798-425a-bd85-d3f21e4b4b78">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8f03fc63-fb2a-4a70-89a6-a2c5a6ea02a7">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>AsOfDateYear</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="34a808da-b3cf-41ad-9a5b-e32c2fcc6dd2">
+      <ID>As Of Date Quarter</ID>
+      <Name>As Of Date Quarter</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5d4c2ce4-6da8-4507-a797-b24a17cc8fca">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3f9f67bd-cc14-4215-968b-4e7f1f9c5380">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>AsOfDateYear</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="2f5d6d6f-6c9e-4a4e-a213-3660f81dc48b">
+          <DataType>WChar</DataType>
+          <DataSize>3</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cdefd923-3610-494b-a5dc-830080cc9716">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>AsOfDateQuarter</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="ce25b9ff-7728-4293-bcaf-60717931030d">
+        <DataType>WChar</DataType>
+        <DataSize>3</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="8c2172bf-ac99-4453-a5b5-435144e08b08">
+          <TableID>DepositAccount</TableID>
+          <ColumnID>AsOfDateQuarter</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="4d9adfa6-0618-42ff-8397-6d4cbda46eb8">
+          <AttributeID>As Of Date Year</AttributeID>
+          <Name>As Of Date Year</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="680af79f-19a6-4fbd-a530-6f6c70e1f294">
+      <ID>As Of Date Month</ID>
+      <Name>As Of Date Month</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fabbaca7-983c-4b4b-b56e-48cb09465207">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f8444e8d-601c-4694-8445-bf79bcd2646d">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>AsOfDateMonth</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyOrdered>false</AttributeHierarchyOrdered>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <AttributeHierarchyOptimizedState>NotOptimized</AttributeHierarchyOptimizedState>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="067f21b3-4d74-43bb-8a4c-063bf96af9d3">
+      <ID>As Of Date Month Name</ID>
+      <Name>As Of Date Month Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="af85bc71-baa8-438f-a94a-4327b98a9e9c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6b0f07ed-bd2a-4ed0-9444-987d9f2801c3">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>AsOfDateYear</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="81ee18ae-301b-4cb2-8158-ba13ba9c105e">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f29ab232-9be0-44d9-afbc-6e84b01a0f76">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>AsOfDateMonthName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="94e7cde0-b154-4329-8d49-a1b4cd240f23">
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="e67e80be-3464-4c6b-9431-5a8e2d87f496">
+          <TableID>DepositAccount</TableID>
+          <ColumnID>AsOfDateMonthName</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="a30d4b01-1b2f-4d7c-88b9-33554b156dd5">
+          <AttributeID>As Of Date Quarter</AttributeID>
+          <Name>As Of Date Quarter</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d10172c7-0cca-4f7f-9b24-0bb6543e22c6">
+          <AttributeID>As Of Date Month</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>As Of Date Month</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeKey</OrderBy>
+      <OrderByAttributeID>As Of Date Month</OrderByAttributeID>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="12f80ad1-95aa-4199-bf88-c271c4b64f9a">
+      <ID>Account Type Code</ID>
+      <Name>Account Type Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8b01453b-0f0c-496d-bcd3-74cdb012c837">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6b045ec6-cb5e-4808-9d20-9f71ad9f46d0">
+            <TableID>DepositAccount</TableID>
+            <ColumnID>AccountTypeCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="1bf40342-b2d9-4c7b-803f-8af49cd49afa">
+      <ID>Hierarchy</ID>
+      <Name>Maturity Date Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="5837f031-7118-474c-b020-1802e8fb39eb">
+          <ID>Maturity Date Year</ID>
+          <Name>Maturity Date Year</Name>
+          <SourceAttributeID>Maturity Date Year</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="89234c40-897f-44a5-9eb8-54702f735d3b">
+          <ID>Maturity Date Quarter</ID>
+          <Name>Maturity Date Quarter</Name>
+          <SourceAttributeID>Maturity Date Quarter</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="da9011be-5bb3-4592-adcf-d4d063b03c52">
+          <ID>Maturity Date Month Name</ID>
+          <Name>Maturity Date Month Name</Name>
+          <SourceAttributeID>Maturity Date Month Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="6343a2c0-2603-41dc-821f-628008b94fdc">
+          <ID>Maturity Date</ID>
+          <Name>Maturity Date</Name>
+          <SourceAttributeID>Maturity Date</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="8921c705-2801-4ec6-b3c4-ad7fb9e99fae">
+      <ID>Hierarchy 1</ID>
+      <Name>Opened Date Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="c1fe6bad-d78c-444e-9d06-55907d97b450">
+          <ID>Opened Date Year</ID>
+          <Name>Opened Date Year</Name>
+          <SourceAttributeID>Opened Date Year</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="2a126f44-8656-4ab2-9994-324e935ea8be">
+          <ID>Opened Date Quarter</ID>
+          <Name>Opened Date Quarter</Name>
+          <SourceAttributeID>Opened Date Quarter</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="c78389be-2c2c-4639-a7bb-afa8f6f514de">
+          <ID>Opened Date Month Name</ID>
+          <Name>Opened Date Month Name</Name>
+          <SourceAttributeID>Opened Date Month Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="ad08dec1-5d56-48e0-babe-672d55e9a090">
+          <ID>Opened Date</ID>
+          <Name>Opened Date</Name>
+          <SourceAttributeID>Opened Date</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="b4f9d519-e139-4e9f-b724-50117d25cc00">
+      <ID>Hierarchy 2</ID>
+      <Name>As Of Date Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="3025f0c4-c7a2-41df-8ef9-c09bbb0e98cf">
+          <ID>As Of Date Year</ID>
+          <Name>As Of Date Year</Name>
+          <SourceAttributeID>As Of Date Year</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="ffcaa2ab-1c3b-493f-91d8-9f51906ec3b3">
+          <ID>As Of Date Quarter</ID>
+          <Name>As Of Date Quarter</Name>
+          <SourceAttributeID>As Of Date Quarter</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="b7ecd888-dcfa-4f81-878b-6bd6bf09fcb4">
+          <ID>As Of Date Month Name</ID>
+          <Name>As Of Date Month Name</Name>
+          <SourceAttributeID>As Of Date Month Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="866392c8-67c8-4feb-9c83-95db6f0c244f">
+          <ID>As Of Date</ID>
+          <Name>As Of Date</Name>
+          <SourceAttributeID>As Of Date</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
